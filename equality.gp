@@ -1,15 +1,16 @@
 load 'defaults.gp'
+#load 'colors-sequential-Gray.gp'
 load 'colors-qualitative-clusterd.gp'
 
-mpl_top    = 0.1 #inch  outer top margin, title goes here
-mpl_bot    = 0.4 #inch  outer bottom margin, x label goes here
+mpl_top    = 0.2 #inch  outer top margin, title goes here
+mpl_bot    = 0.7 #inch  outer bottom margin, x label goes here
 mpl_left   = 0.4 #inch  outer left margin, y label goes here
 mpl_right  = 0.3 #inch  outer right margin, y2 label goes here
-mpl_height = 1.4 #inch  height of individual plots
-mpl_width  = 2.8 #inch  width of individual plots
+mpl_height = 0.9 #inch  height of individual plots
+mpl_width  = 2.4 #inch  width of individual plots
 mpl_dx     = 0.45 #inch  inter-plot horizontal spacing
-mpl_dy     = 0.6 #inch  inter-plot vertical spacing
-mpl_ny     = 1 #number of rows
+mpl_dy     = 0.7 #inch  inter-plot vertical spacing
+mpl_ny     = 2 #number of rows
 mpl_nx     = 1 #number of columns
 
 baseline_name = "PathORAM"
@@ -24,7 +25,7 @@ marker_3 = 8
 marker_4 = 5
 
 line_style = 1
-line_width = 3
+line_width = 4
 point_size = 1.5
 
 # calculate full dimensions
@@ -50,6 +51,7 @@ right(n)  = 1-((mpl_right+(mpl_nx-n)*(mpl_width+mpl_dx))/xsize)
 
 set terminal epslatex color dl 2.0  size xsize,ysize
 
+set grid xtics lc rgb "#636363"
 
 set encoding iso_8859_1
 set output "plots/search.tex"
@@ -60,31 +62,45 @@ set tics nomirror
 set offsets
 set autoscale 
 set size 1,1
-set nokey
 
 set style rectangle fs solid noborder
-set key
+unset key 
 
+
+set multiplot
 
 #-----------------------------------------------
 #  set horizontal margins for first column
 set lmargin at screen left(1)
 set rmargin at screen right(1)
 #  set horizontal margins for third row (top)
+set tmargin at screen top(2)
+set bmargin at screen bot(2)
+set title "Exact Match Queries" offset 0, -0.8
+set xlabel 'Number of table blocks (base 2)'
+set ylabel 'Latency (ms)'
+
+plot "data/dtpathoram_z4_singleoram_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
+	"data/dtforestoram_z4_divoram_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
+#-----------------------------------------------
+#  set horizontal margins for second column
+set lmargin at screen left(1)
+set rmargin at screen right(1)
+#  set horizontal margins for third row (top)
 set tmargin at screen top(1)
 set bmargin at screen bot(1)
-
-#set title 'Workload A' offset 0, -0.8
-set xlabel 'Number of table blocks (base 2)'
-set ylabel 'Throughput (ops/s)'
+set key horiz maxrows 1 samplen 1 
+set key out bot center
 
 
-plot "data/dtpathoram_z4_singleoram_throughput.dat"  with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
-	"data/dtforestoram_z4_divoram_throughput.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
+set title "Scan Queries" offset 0, -0.8
+set xlabel 'Number of results'
+set ylabel 'Latency (ms)'
 
-#plot "data/dtforestoram_z4_divoramscan_throughput.dat" with linespoints title system_name lw line_width pt marker_1 ps point_size,\
-#	"data/dtpathoram_z4_soramscan_throughput.dat" with linespoints title baseline_name lw line_width pt marker_2 ps point_size
+plot "data/dtpathoram_z4_soramscan_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
+	 "data/dtforestoram_z4_divoramscan_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
 
+unset multiplot
 
 
 
