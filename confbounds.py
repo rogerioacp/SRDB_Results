@@ -14,7 +14,7 @@ from math import sqrt
 from scipy.stats import t, norm
 
 #Output Messages format
-RESULT_FORMAT = "{:5d} {:6.2f} {:6.2f} {:6.2f}"
+RESULT_FORMAT = "{:7d} {: <8.2f} {: <8.2f} {: <8.2f}"
 
 #ERROR Messages
 MSG_ERROR_MORE_RUNS = "WARNING! More run are needed to calculate a {:f} confidence interval of with {:d} accuracy.\nA total of {:d} runs were executed but the ideal size is {:f}."
@@ -70,7 +70,7 @@ def main():
 	"""
 	Z = norm.ppf(1 - ((1-confidence)/2))
 
-	print "# {:5s} {:6s} {:6s} {:6s}".format("NRows", "Mean", "Lower", "Upper")
+	print "# {:5s} {:8s} {:8s} {:8s}".format("NRows", "Mean", "Lower", "Upper")
 	ideal_sample_size = 0
 	nruns = 0;
 	with open(filepath) as fp:
