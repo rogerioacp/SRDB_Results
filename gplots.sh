@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-#set -v
-
-#awk -f stats.awk raw/dtpathoram_z4_singleoram/*.dat
-
 #Confidence interval
 CONF=0.95
 #Accuracy
@@ -12,9 +8,9 @@ ACC=5
 NRUNS=5
 
 for folder in ycsb/* ; do
-	fthr=data/${folder:4}_throughput.dat
-    flat=data/${folder:4}_latencies.dat
-
+	fthr=data${folder:4}_throughput.dat
+    flat=data${folder:4}_latencies.dat
+    
     awk -f stats.awk $folder/*.dat
 
 
