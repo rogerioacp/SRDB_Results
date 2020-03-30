@@ -12,10 +12,6 @@ mpl_dy     = 0.6 #inch  inter-plot vertical spacing
 mpl_ny     = 1 #number of rows
 mpl_nx     = 1 #number of columns
 
-plots_font = "LinLibertine_RB.ttf" # font used for plots tics
-plots_font_size = 14
-label_font = "LinLibertine_RB.ttf, 14"
-
 baseline_name = "PathORAM"
 system_name = "CODBS"
 
@@ -70,7 +66,6 @@ set style rectangle fs solid noborder
 set key
 
 
-
 #-----------------------------------------------
 #  set horizontal margins for first column
 set lmargin at screen left(1)
@@ -83,8 +78,12 @@ set bmargin at screen bot(1)
 set xlabel 'Number of table blocks (base 2)'
 set ylabel 'Throughput (ops/s)'
 
-plot "data/dtforestoram_z4_divoram_throughput.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
-	"data/dtpathoram_z4_singleoram_throughput.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
+
+plot "data/dtpathoram_z4_singleoram_throughput.dat"  with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
+	"data/dtforestoram_z4_divoram_throughput.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
+
+#plot "data/dtforestoram_z4_divoramscan_throughput.dat" with linespoints title system_name lw line_width pt marker_1 ps point_size,\
+#	"data/dtpathoram_z4_soramscan_throughput.dat" with linespoints title baseline_name lw line_width pt marker_2 ps point_size
 
 
 
