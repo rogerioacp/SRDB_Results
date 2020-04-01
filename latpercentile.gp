@@ -1,6 +1,6 @@
 load 'defaults.gp'
-#load 'colors-sequential-Gray.gp'
-load 'colors-qualitative-clusterd.gp'
+load 'colors-sequential-Gray.gp'
+#load 'colors-qualitative-clusterd.gp'
 
 mpl_top    = 0.2 #inch  outer top margin, title goes here
 mpl_bot    = 0.7 #inch  outer bottom margin, x label goes here
@@ -10,7 +10,7 @@ mpl_height = 0.9 #inch  height of individual plots
 mpl_width  = 2.4 #inch  width of individual plots
 mpl_dx     = 0.45 #inch  inter-plot horizontal spacing
 mpl_dy     = 0.7 #inch  inter-plot vertical spacing
-mpl_ny     = 1 #number of rows
+mpl_ny     = 2 #number of rows
 mpl_nx     = 1 #number of columns
 
 baseline_name = "PathORAM"
@@ -54,7 +54,7 @@ set terminal epslatex color dl 2.0  size xsize,ysize
 set grid xtics lc rgb "#636363"
 
 set encoding iso_8859_1
-set output "plots/hdrhistogram.tex"
+set output "plots/histogram.tex"
 set border 3 back
 set tics nomirror
 
@@ -64,25 +64,46 @@ set autoscale
 set size 1,1
 
 set style rectangle fs solid noborder
-set key 
+unset key 
 
-set xrange[0.99:1]
-set xtics 0.005
+set xrange[0:25]
+
+set multiplot
 
 #-----------------------------------------------
 #  set horizontal margins for first column
 set lmargin at screen left(1)
 set rmargin at screen right(1)
 #  set horizontal margins for third row (top)
+set tmargin at screen top(2)
+set bmargin at screen bot(2)
+set title "Forest ORAM" offset 0, -0.8
+set xlabel 'Time (seconds)'
+set ylabel 'Latency (ms)'
+set ytics 1
+
+plot "data/OIS_percentiles.dat" u ($1/60):2 with lines title system_name lw line_width
+
+
+#-----------------------------------------------
+#  set horizontal margins for second column
+set lmargin at screen left(1)
+set rmargin at screen right(1)
+#  set horizontal margins for third row (top)
 set tmargin at screen top(1)
 set bmargin at screen bot(1)
-#set title "Forest ORAM" offset 0, -0.8
+#set key horiz maxrows 1 samplen 1 
+#set key out bot center
+set ytics 10,10
+
+
+set title " Path ORAM" offset 0, -0.8
 set xlabel 'Time (seconds)'
 set ylabel 'Latency (ms)'
 
-plot "data/histogram_baseline.hgrm" u 2:($1*0.01) with lines title baseline_name lw line_width,\
-	"data/histogram_ois.hgrm" u 2:($1*0.001) with lines title system_name lw line_width
+plot "data/BASELINE_percentiles.dat" u ($1/60):2 with lines title baseline_name lw line_width
 
+unset multiplot
 
 
 

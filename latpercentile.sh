@@ -34,7 +34,7 @@ genPercentiles(){
 genPercentiles dtforestoram_z4_divoram/OIS_65536_*.hdr
 genPercentiles dtpathoram_z4_singleoram/BASELINE_65536_*.hdr
 
-gnuplot hdrhistogram.gp
+gnuplot latpercentile.gp
 
 
 
