@@ -3,7 +3,7 @@ load 'defaults.gp'
 load 'colors-qualitative-clusterd.gp'
 
 mpl_top    = 0.2 #inch  outer top margin, title goes here
-mpl_bot    = 0.7 #inch  outer bottom margin, x label goes here
+mpl_bot    = 0.4 #inch  outer bottom margin, x label goes here
 mpl_left   = 0.4 #inch  outer left margin, y label goes here
 mpl_right  = 0.3 #inch  outer right margin, y2 label goes here
 mpl_height = 0.9 #inch  height of individual plots
@@ -66,8 +66,10 @@ set size 1,1
 set style rectangle fs solid noborder
 set key 
 
-set xrange[0.99:1]
-set xtics 0.005
+set xrange[0.9:1]
+set xtics 0.05
+set ytics 200
+#set xtics 0.005
 
 #-----------------------------------------------
 #  set horizontal margins for first column
