@@ -24,8 +24,8 @@ genDiskFiles(){
     rm writes.dat
 }
 
-genDiskFiles "dstat/dforestoram_z4_divoram/OIS_65536*" forest 
-genDiskFiles "dstat/dtpathoram_z4_singleoram/BASELINE_65536*" pathoram
+genDiskFiles "dstatcheck/dforestoram_z4_divoram/OIS_65536*" forest 
+genDiskFiles "dstatcheck/dtpathoram_z4_singleoram/BASELINE_65536*" pathoram
 
 
 

@@ -66,7 +66,7 @@ set size 1,1
 set style rectangle fs solid noborder
 unset key 
 
-set xrange[10:30]
+set xrange[10:40]
 
 set multiplot
 
