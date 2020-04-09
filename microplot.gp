@@ -2,8 +2,8 @@ load 'defaults.gp'
 load 'colors-sequential-Gray.gp'
 #load 'colors-qualitative-clusterd.gp'
 
-mpl_top    = 0 #inch  outer top margin, title goes here
-mpl_bot    = 0.8 #inch  outer bottom margin, x label goes here
+mpl_top    = 0.2 #inch  outer top margin, title goes here
+mpl_bot    = 0.4 #inch  outer bottom margin, x label goes here
 mpl_left   = 0.2 #inch  outer left margin, y label goes here
 mpl_right  = 0.2 #inch  outer right margin, y2 label goes here
 mpl_height = 1 #inch  height of individual plots
@@ -55,8 +55,8 @@ set terminal epslatex color dl 2.0  size xsize,ysize
 
 set encoding iso_8859_1
 set output "plots/microplot.tex"
-set border 3 front
-set tics nomirror
+
+set border 31 front  linecolor rgb "black"  linewidth 2.000 dashtype solid
 
 set style data histograms
 set style histogram errorbars gap 0 lw 2
@@ -66,14 +66,13 @@ set autoscale
 set style fill solid noborder
 
 set key horiz maxrows 1 samplen 1 
-set key out bot center
+set key out top center
 #set boxwidth 0.8
 
 set ytics 50
 
 set lmargin at screen left(1)
 set rmargin at screen right(1)
-#  set horizontal margins for third row (top)
 set tmargin at screen top(1)
 set bmargin at screen bot(1)
 
@@ -81,11 +80,9 @@ set errorbars lc "#D1193E" lw 2
 
 set xlabel 'Number of  blocks (base 2)'
 set ylabel 'Latency ($\mu$s)'
-set offset -0.4,-0.4,0,0
+set offset -0.2,-0.2,0,0
 
-#set multiplot
 
-#set title "Read" offset 0, -0.8
 plot \
 newhistogram "Read",\
  "data/microbenchmarks.dat" every 1::0::3 using 2:3:4:xtic(1) t "ForestORAM" with histograms fill solid lc rgb "#d9d9d9",\
@@ -94,33 +91,6 @@ newhistogram "Write",\
  '' every 1::0::3 using 2:3:4:xtic(1) notitle with histograms fill solid lc rgb "#d9d9d9",\
  '' every 1::0::3 using  5:6:7:xtic(1) t "PathORAM" with histograms fill solid lc rgb "#252525"
 
-#set lmargin at screen left(2)
-#set rmargin at screen right(2)
-#  set horizontal margins for third row (top)
-#set tmargin at screen top(1)
-#set bmargin at screen bot(1)
-#set key
-#unset yaxis
-#set border
-#set tics
-#unset ytics
-#set y2tics 50
-#set tics 
-#unset ytics
-#set y2tics 50
-
-#unset ytics
-#set y2tics 50
-#set y2tics
-
-#set title "Write" offset 0, -0.8 
-#unset ytics
-#unset xlabel
-#unset ylabel
-#plot \
-# "data/microbenchmarks.dat" every 1::0::3 using 2:3:4:xtic(1) notitle with histograms fill solid lc rgb "#d9d9d9",\
-# '' every 1::0::3 using  5:6:7:xtic(1) t "PathORAM" with histograms fill solid lc rgb "#252525"
 
 
 
-#unset multiplot
