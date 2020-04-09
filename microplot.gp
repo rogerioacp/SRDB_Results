@@ -79,14 +79,7 @@ set bmargin at screen bot(1)
 
 set xlabel 'Number of  blocks (base 2)' offset 8,0
 set ylabel 'Latency ($\mu$s)'
-
-#rectangle shade
-#set style rect fc lt -1 fs solid 0.05 noborder back
-#set obj rect from 3.64, graph 0 to 8, graph 1
-
-#set label 2001 "Read" at 1,20
-#set label 2002 "Write" at 5,40  
-#set offset -0.4,-0.4,0,0
+set offset -0.4,-0.4,0,0
 
 set multiplot
 
