@@ -79,6 +79,7 @@ set rmargin at screen right(1)
 set tmargin at screen top(1)
 set bmargin at screen bot(1)
 
+set ylabel "Execution Time (\\%)"
 plot 'data/breakdown.dat' using 2 title "T-File" with histograms fill pattern 5 lc rgb "#252525",\
 	'' using 3 title "T-Stash" with histograms fill pattern 2 lc rgb "#252525",\
 	'' using 6 title "I-File L1" with histograms fill pattern 5 lc rgb "#969696",\
