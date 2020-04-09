@@ -9,7 +9,7 @@ mpl_right  = 0.2 #inch  outer right margin, y2 label goes here
 mpl_height = 1 #inch  height of individual plots
 mpl_width  = 3 #inch  width of individual plots
 mpl_dx     = 0 #inch  inter-plot horizontal spacing
-mpl_dy     = 0.1 #inch  inter-plot vertical spacing
+mpl_dy     = 0 #inch  inter-plot vertical spacing
 mpl_ny     = 1 #number of rows
 mpl_nx     = 1 #number of columns
 
