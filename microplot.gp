@@ -4,10 +4,10 @@ load 'colors-sequential-Gray.gp'
 
 mpl_top    = 0.2 #inch  outer top margin, title goes here
 mpl_bot    = 0.4 #inch  outer bottom margin, x label goes here
-mpl_left   = 0.2 #inch  outer left margin, y label goes here
-mpl_right  = 0.2 #inch  outer right margin, y2 label goes here
+mpl_left   = 0.4 #inch  outer left margin, y label goes here
+mpl_right  = 0.01 #inch  outer right margin, y2 label goes here
 mpl_height = 1 #inch  height of individual plots
-mpl_width  = 3 #inch  width of individual plots
+mpl_width  = 2.8 #inch  width of individual plots
 mpl_dx     = 0 #inch  inter-plot horizontal spacing
 mpl_dy     = 0 #inch  inter-plot vertical spacing
 mpl_ny     = 1 #number of rows
@@ -79,17 +79,17 @@ set bmargin at screen bot(1)
 set errorbars lc "#D1193E" lw 2
 
 set xlabel 'Number of  blocks (base 2)'
-set ylabel 'Latency ($\mu$s)'
+set ylabel 'Average Latency ($\mu$s)' offset 0.8,0
 set offset -0.2,-0.2,0,0
 
 
 plot \
 newhistogram "Read",\
- "data/microbenchmarks.dat" every 1::0::3 using 2:3:4:xtic(1) t "ForestORAM" with histograms fill solid lc rgb "#d9d9d9",\
- '' every 1::0::3 using  5:6:7:xtic(1) notitle with histograms fill solid lc rgb "#252525",\
+ "data/microbenchmarks.dat" every 1::0::3 using 2:3:4:xtic(1) t "ForestORAM" with histograms fill solid lc rgb "#252525",\
+ '' every 1::0::3 using  5:6:7:xtic(1) notitle with histograms fill solid lc rgb "#d9d9d9",\
 newhistogram "Write",\
- '' every 1::0::3 using 2:3:4:xtic(1) notitle with histograms fill solid lc rgb "#d9d9d9",\
- '' every 1::0::3 using  5:6:7:xtic(1) t "PathORAM" with histograms fill solid lc rgb "#252525"
+ '' every 1::0::3 using 2:3:4:xtic(1) notitle with histograms fill solid lc rgb "#d252525",\
+ '' every 1::0::3 using  5:6:7:xtic(1) t "PathORAM" with histograms fill solid lc rgb "#d9d9d9"
 
 
 

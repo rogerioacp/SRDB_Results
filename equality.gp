@@ -1,26 +1,26 @@
 load 'defaults.gp'
-#load 'colors-sequential-Gray.gp'
-load 'colors-qualitative-clusterd.gp'
+load 'colors-sequential-Gray.gp'
+#load 'colors-qualitative-clusterd.gp'
 
 mpl_top    = 0.2 #inch  outer top margin, title goes here
 mpl_bot    = 0.7 #inch  outer bottom margin, x label goes here
 mpl_left   = 0.4 #inch  outer left margin, y label goes here
 mpl_right  = 0.3 #inch  outer right margin, y2 label goes here
-mpl_height = 0.9 #inch  height of individual plots
+mpl_height = 0.8 #inch  height of individual plots
 mpl_width  = 2.4 #inch  width of individual plots
 mpl_dx     = 0.45 #inch  inter-plot horizontal spacing
 mpl_dy     = 0.7 #inch  inter-plot vertical spacing
 mpl_ny     = 2 #number of rows
 mpl_nx     = 1 #number of columns
 
-baseline_name = "PathORAM"
+baseline_name = "Baseline"
 system_name = "CODBS"
 
 baseline_color = HKS44_100
 system_color = HKS65_100
 
-marker_1 = 6
-marker_2 = 2
+marker_1 = 5
+marker_2 = 7
 marker_3 = 8
 marker_4 = 5
 
@@ -79,9 +79,9 @@ set bmargin at screen bot(2)
 set title "Exact Match Queries" offset 0, -0.8
 set xlabel 'Number of table blocks (base 2)'
 set ylabel 'Latency (ms)'
-
-plot "data/dtpathoram_z4_singleoram_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
-	"data/dtforestoram_z4_divoram_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
+set ytics 10
+plot "data/dtpathoram_z4_singleoram_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size lc rgb "#d9d9d9",\
+	"data/dtforestoram_z4_divoram_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size  lc rgb "#252525"
 #-----------------------------------------------
 #  set horizontal margins for second column
 set lmargin at screen left(1)
@@ -91,14 +91,14 @@ set tmargin at screen top(1)
 set bmargin at screen bot(1)
 set key horiz maxrows 1 samplen 1 
 set key out bot center
-
+set ytics 100
 
 set title "Scan Queries" offset 0, -0.8
 set xlabel 'Number of results'
 set ylabel 'Latency (ms)'
 
-plot "data/dtpathoram_z4_soramscan_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size,\
-	 "data/dtforestoram_z4_divoramscan_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size
+plot "data/dtpathoram_z4_soramscan_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size lc rgb "#d9d9d9",\
+	 "data/dtforestoram_z4_divoramscan_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size lc rgb "#252525"
 
 unset multiplot
 

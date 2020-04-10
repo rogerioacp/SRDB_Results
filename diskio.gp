@@ -13,7 +13,7 @@ mpl_dy     = 0.15 #inch  inter-plot vertical spacing
 mpl_ny     = 2 #number of rows
 mpl_nx     = 1 #number of columns
 
-baseline_name = "PathORAM"
+baseline_name = "Baseline"
 system_name = "CODBS"
 
 baseline_color = HKS44_100
@@ -83,7 +83,7 @@ set rmargin at screen right(1)
 set tmargin at screen top(2)
 set bmargin at screen bot(2)
 #set title "Exact Match Queries" offset 0, -0.8
-set y2label "ForestORAM" 
+set y2label "CODBS" 
 unset xtics
 plot"data/forest_writes.dat" using ($1/60):($3*0.001):($4*0.001) with filledcurves,\
 	'' u ($1/60):($2*0.001) with lines title system_name lw line_width lc rgb "#252525"
@@ -106,8 +106,8 @@ set ytics 20
 set xtics 5
 unset xlabel
 set xlabel 'Time (minutes)'
-set ylabel 'Average Disk Writes (MB)' offset 0,3
-set y2label "PathORAM"
+set ylabel 'Average Disk Writes (MiB)' offset 0,3
+set y2label "Baseline"
 set yrange[0:60]
 
 
