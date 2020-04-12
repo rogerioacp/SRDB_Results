@@ -4,7 +4,7 @@ load 'colors-sequential-Gray.gp'
 
 mpl_top    = 0.1 #inch  outer top margin, title goes here
 mpl_bot    = 0.2 #inch  outer bottom margin, x label goes here
-mpl_left   = 0.1 #inch  outer left margin, y label goes here
+mpl_left   = 0.4 #inch  outer left margin, y label goes here
 mpl_right  = 1 #inch  outer right margin, y2 label goes here
 mpl_height = 1.4 #inch  height of individual plots
 mpl_width  = 1.6 #inch  width of individual plots
@@ -79,7 +79,7 @@ set rmargin at screen right(1)
 set tmargin at screen top(1)
 set bmargin at screen bot(1)
 
-set ylabel "Execution Time (\\%)"
+set ylabel "Execution Time (\\%)" offset 0.8,0
 plot 'data/breakdown.dat' using 2 title "T-File" with histograms fill pattern 5 lc rgb "#252525",\
 	'' using 3 title "T-Stash" with histograms fill pattern 2 lc rgb "#252525",\
 	'' using 6 title "I-File L1" with histograms fill pattern 5 lc rgb "#969696",\
