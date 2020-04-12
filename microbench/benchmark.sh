@@ -7,7 +7,7 @@
 
 SYSTEMS=(randomreadbenchd randomreadbenchfd randomwritebenchd randomwritebenchfd)
 #SYSTEMS=(randomreadbench)
-NBLOCKS=(10 12 14 16)
+NBLOCKS=(10 12 14 16 18 20)
 BSIZES=(13)
 BCAP=(4)
 #NBLOCKS=(10 12 14 16 18 20)
