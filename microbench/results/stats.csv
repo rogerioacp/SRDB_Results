@@ -1,0 +1,10 @@
+    randomreadbenchd   1024 8192 4 0
+    randomreadbenchd   1024 8192 4 1
+    randomreadbenchd   1024 8192 4 2
+    randomreadbenchd   1024 8192 4 3
+    randomreadbenchd   1024 8192 4 4
+    randomreadbenchd   1024 8192 4 5
+    randomreadbenchd   4096 8192 4 0
+    randomreadbenchd   4096 8192 4 1
+    randomreadbenchd   4096 8192 4 2
+    randomreadbenchd   4096 8192 4 3
