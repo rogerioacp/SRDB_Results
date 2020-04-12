@@ -106,7 +106,7 @@ set ytics 20
 set xtics 5
 unset xlabel
 set xlabel 'Time (minutes)'
-set ylabel 'Average Disk Writes (MiB)' offset 0,3
+set ylabel 'Average Disk Writes (MiB/s)' offset 0,3
 set y2label "Baseline"
 set yrange[0:60]
 
