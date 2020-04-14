@@ -33,4 +33,5 @@ echo "$reads"  >> data/microbenchmarks.dat
 echo "$writes" >> data/microbenchmarks.dat
 rm *.tmp
 rm *.dat
-#gnuplot equality.gp
+
+gnuplot microplot.gp
