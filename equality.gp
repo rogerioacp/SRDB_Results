@@ -97,8 +97,8 @@ set title "Workload B" offset 0, -0.8
 set xlabel 'Number of results'
 set ylabel 'Average Latency (ms)' offset 0.8, 0
 
-plot "data/dtpathoram_z4_soramscan_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size lc rgb "#d9d9d9",\
-	 "data/dtforestoram_z4_divoramscan_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size lc rgb "#252525"
+plot "data/dtforestoram_z4_divoramscan_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size lc rgb "#252525",\
+	"data/dtpathoram_z4_soramscan_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size lc rgb "#d9d9d9"
 
 unset multiplot
 

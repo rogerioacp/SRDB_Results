@@ -83,8 +83,8 @@ set ylabel 'Avg. Throughput (ops/s)' offset 0.8,0
 set offset -0.2,-0.2,0,0
 
 
-plot  "data/oltp.dat" using 2:3:4:xtic(1) t "Baseline" with histograms fill solid lc rgb "#252525",\
- '' using  5:6:7:xtic(1) t "CODBS" with histograms fill solid lc rgb "#d9d9d9"
+plot  "data/oltp.dat" using 5:6:7:xtic(1) t "CODBS" with histograms fill solid lc rgb "#252525",\
+ '' using  2:3:4:xtic(1) t "Baseline" with histograms fill solid lc rgb "#d9d9d9"
 
 
 
