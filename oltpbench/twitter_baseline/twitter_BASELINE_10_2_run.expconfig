@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+<isolation>TRANSACTION_SERIALIZABLE</isolation>
+<scalefactor>10</scalefactor>
+<tracefile>config/traces/twitter_tweetids.txt</tracefile>
+<tracefile2>config/traces/twitter_user_ids.txt</tracefile2>
+<base_ip>10.1.</base_ip>
+<executionmode>BASELINE</executionmode>
+<terminals>1</terminals>
+<works>
+<work>
+<time>2400</time>
+<rate>10000</rate>
+<weights>100</weights>
+</work>
+</works>
+<transactiontypes>
+<transactiontype>
+<name>GetOblivTweet</name>
+</transactiontype>
+</transactiontypes>
+</configuration>

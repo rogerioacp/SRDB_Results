@@ -1,0 +1,21 @@
+{
+ "Benchmark Type": "wikipedia",
+ "Current Timestamp (milliseconds)": 1586786627042,
+ "DBMS Type": "postgres",
+ "DBMS Version": "11.1",
+ "Latency Distribution": {
+  "Minimum Latency (microseconds)": 52924,
+  "25th Percentile Latency (microseconds)": 10007857,
+  "Median Latency (microseconds)": 10009157,
+  "Average Latency (microseconds)": 9986063,
+  "75th Percentile Latency (microseconds)": 10010472,
+  "90th Percentile Latency (microseconds)": 10012249,
+  "95th Percentile Latency (microseconds)": 10015582,
+  "99th Percentile Latency (microseconds)": 10020939,
+  "Maximum Latency (microseconds)": 10030692
+ },
+ "Throughput (requests/second)": 98.38957342706114,
+ "isolation": "TRANSACTION_SERIALIZABLE",
+ "scalefactor": "10",
+ "terminals": "1"
+}

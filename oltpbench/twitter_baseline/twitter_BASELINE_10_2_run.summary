@@ -1,0 +1,21 @@
+{
+ "Benchmark Type": "twitter",
+ "Current Timestamp (milliseconds)": 1586540494258,
+ "DBMS Type": "postgres",
+ "DBMS Version": "11.1",
+ "Latency Distribution": {
+  "Minimum Latency (microseconds)": 20059,
+  "25th Percentile Latency (microseconds)": 1014490,
+  "Median Latency (microseconds)": 1014859,
+  "Average Latency (microseconds)": 1014665,
+  "75th Percentile Latency (microseconds)": 1015236,
+  "90th Percentile Latency (microseconds)": 1015561,
+  "95th Percentile Latency (microseconds)": 1015747,
+  "99th Percentile Latency (microseconds)": 1016090,
+  "Maximum Latency (microseconds)": 1076859
+ },
+ "Throughput (requests/second)": 66.74082430630314,
+ "isolation": "TRANSACTION_SERIALIZABLE",
+ "scalefactor": "10",
+ "terminals": "1"
+}
