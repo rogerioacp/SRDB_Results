@@ -85,11 +85,11 @@ set offset -0.2,-0.2,0,0
 
 plot \
 newhistogram "Read",\
- "data/microbenchmarks.dat" every 1::0::3 using 2:3:4:xtic(1) t "ForestORAM" with histograms fill solid lc rgb "#252525",\
+ "data/microbenchmarks.dat" every 1::0::4 using 2:3:4:xtic(1) t "ForestORAM" with histograms fill solid lc rgb "#252525",\
  '' every 1::0::3 using  5:6:7:xtic(1) notitle with histograms fill solid lc rgb "#d9d9d9",\
 newhistogram "Write",\
- '' every 1::0::3 using 2:3:4:xtic(1) notitle with histograms fill solid lc rgb "#d252525",\
- '' every 1::0::3 using  5:6:7:xtic(1) t "PathORAM" with histograms fill solid lc rgb "#d9d9d9"
+ '' every 1::4::7 using 2:3:4:xtic(1) notitle with histograms fill solid lc rgb "#d252525",\
+ '' every 1::4::7 using  5:6:7:xtic(1) t "PathORAM" with histograms fill solid lc rgb "#d9d9d9"
 
 
 
