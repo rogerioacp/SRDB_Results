@@ -1,0 +1,2986 @@
+Tsize is 6
+Tue Apr 14 15:56:03 WEST 2020 - Run 1 for OIS with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 15:56:04.935 WEST [16221] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 15:56:04.940 WEST [16221] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 15:56:05.007 WEST [16222] LOG:  database system was shut down at 2020-04-14 15:55:10 WEST
+2020-04-14 15:56:05.011 WEST [16221] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 15:56:05.027 WEST [16221] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16 1
+
+real	0m28.821s
+user	0m0.404s
+sys	0m0.076s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+cp: cannot stat 'data/log': No such file or directory
+Tue Apr 14 15:56:38 WEST 2020 - Run 1 for OIS with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 15:56:38.971 WEST [16735] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 15:56:38.976 WEST [16735] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 15:56:39.040 WEST [16736] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 15:56:39.043 WEST [16735] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 15:56:39.063 WEST [16735] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 64 1
+
+real	0m28.157s
+user	0m0.532s
+sys	0m0.032s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+cp: cannot create directory 'logs/64_1': No such file or directory
+Tue Apr 14 15:57:11 WEST 2020 - Run 1 for OIS with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 15:57:12.563 WEST [17300] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 15:57:12.570 WEST [17300] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 15:57:12.636 WEST [17301] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 15:57:12.640 WEST [17300] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 15:57:12.656 WEST [17300] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 256 1
+Tsize is 6
+Tue Apr 14 16:03:12 WEST 2020 - Run 1 for OIS with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:03:13.167 WEST [18298] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:03:13.173 WEST [18298] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:03:13.238 WEST [18299] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 16:03:13.243 WEST [18298] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:03:13.260 WEST [18298] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16 1
+
+real	0m28.106s
+user	0m0.508s
+sys	0m0.036s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:03:45 WEST 2020 - Run 2 for OIS with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:03:46.919 WEST [18852] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:03:46.924 WEST [18852] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:03:46.990 WEST [18853] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 16:03:46.994 WEST [18852] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:03:47.012 WEST [18852] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16 2
+
+real	0m28.026s
+user	0m0.632s
+sys	0m0.028s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:04:19 WEST 2020 - Run 3 for OIS with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:04:20.377 WEST [19429] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:04:20.384 WEST [19429] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:04:20.452 WEST [19430] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 16:04:20.456 WEST [19429] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:04:20.470 WEST [19429] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16 3
+
+real	0m27.964s
+user	0m0.520s
+sys	0m0.072s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:04:52 WEST 2020 - Run 4 for OIS with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:04:53.699 WEST [19980] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:04:53.706 WEST [19980] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:04:53.762 WEST [19981] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 16:04:53.766 WEST [19980] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:04:53.792 WEST [19980] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16 4
+
+real	0m28.130s
+user	0m0.556s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:05:26 WEST 2020 - Run 5 for OIS with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:05:27.256 WEST [20531] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:05:27.262 WEST [20531] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:05:27.327 WEST [20532] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 16:05:27.332 WEST [20531] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:05:27.349 WEST [20531] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16 5
+
+real	0m27.975s
+user	0m0.552s
+sys	0m0.044s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:05:59 WEST 2020 - Run 1 for OIS with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:06:00.506 WEST [21108] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:06:00.512 WEST [21108] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:06:00.547 WEST [21109] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 16:06:00.553 WEST [21108] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:06:00.600 WEST [21108] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 64 1
+
+real	0m28.219s
+user	0m0.600s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:06:33 WEST 2020 - Run 2 for OIS with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:06:34.144 WEST [21676] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:06:34.149 WEST [21676] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:06:34.214 WEST [21677] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 16:06:34.218 WEST [21676] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:06:34.236 WEST [21676] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 64 2
+
+real	0m28.119s
+user	0m0.596s
+sys	0m0.052s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:07:06 WEST 2020 - Run 3 for OIS with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:07:07.856 WEST [22229] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:07:07.861 WEST [22229] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:07:07.920 WEST [22230] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 16:07:07.924 WEST [22229] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:07:07.948 WEST [22229] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 64 3
+
+real	0m28.242s
+user	0m0.568s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:07:40 WEST 2020 - Run 4 for OIS with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:07:41.558 WEST [22779] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:07:41.564 WEST [22779] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:07:41.632 WEST [22780] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 16:07:41.636 WEST [22779] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:07:41.651 WEST [22779] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 64 4
+
+real	0m28.174s
+user	0m0.552s
+sys	0m0.080s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:08:14 WEST 2020 - Run 5 for OIS with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:08:15.391 WEST [23358] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:08:15.396 WEST [23358] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:08:15.464 WEST [23359] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 16:08:15.468 WEST [23358] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:08:15.484 WEST [23358] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 64 5
+
+real	0m28.163s
+user	0m0.488s
+sys	0m0.052s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:08:48 WEST 2020 - Run 1 for OIS with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:08:49.017 WEST [23909] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:08:49.023 WEST [23909] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:08:49.087 WEST [23910] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 16:08:49.091 WEST [23909] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:08:49.104 WEST [23909] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 256 1
+
+real	0m28.526s
+user	0m0.416s
+sys	0m0.072s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:09:22 WEST 2020 - Run 2 for OIS with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:09:23.043 WEST [24460] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:09:23.048 WEST [24460] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:09:23.113 WEST [24461] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 16:09:23.117 WEST [24460] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:09:23.136 WEST [24460] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 256 2
+
+real	0m28.521s
+user	0m0.592s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:09:56 WEST 2020 - Run 3 for OIS with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:09:57.161 WEST [25014] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:09:57.169 WEST [25014] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:09:57.237 WEST [25015] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 16:09:57.242 WEST [25014] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:09:57.255 WEST [25014] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 256 3
+
+real	0m28.684s
+user	0m0.444s
+sys	0m0.032s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:10:30 WEST 2020 - Run 4 for OIS with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:10:31.371 WEST [25609] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:10:31.376 WEST [25609] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:10:31.443 WEST [25610] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 16:10:31.447 WEST [25609] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:10:31.464 WEST [25609] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 256 4
+
+real	0m28.705s
+user	0m0.576s
+sys	0m0.076s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:11:04 WEST 2020 - Run 5 for OIS with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:11:05.691 WEST [26160] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:11:05.696 WEST [26160] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:11:05.762 WEST [26161] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 16:11:05.766 WEST [26160] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:11:05.783 WEST [26160] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 256 5
+
+real	0m28.660s
+user	0m0.568s
+sys	0m0.060s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:11:38 WEST 2020 - Run 1 for OIS with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:11:39.895 WEST [26765] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:11:39.900 WEST [26765] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:11:39.953 WEST [26766] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 16:11:39.981 WEST [26765] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:11:39.988 WEST [26765] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 1024 1
+
+real	0m31.672s
+user	0m0.560s
+sys	0m0.044s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:12:16 WEST 2020 - Run 2 for OIS with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:12:17.243 WEST [27347] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:12:17.250 WEST [27347] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:12:17.316 WEST [27348] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 16:12:17.343 WEST [27347] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:12:17.437 WEST [27347] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 1024 2
+
+real	0m31.584s
+user	0m0.552s
+sys	0m0.040s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:12:53 WEST 2020 - Run 3 for OIS with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:12:54.479 WEST [27898] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:12:54.490 WEST [27898] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:12:54.557 WEST [27899] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 16:12:54.585 WEST [27898] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:12:54.673 WEST [27898] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 1024 3
+
+real	0m31.697s
+user	0m0.592s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:13:30 WEST 2020 - Run 4 for OIS with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:13:31.808 WEST [28466] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:13:31.813 WEST [28466] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:13:31.879 WEST [28467] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 16:13:31.908 WEST [28466] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:13:32.001 WEST [28466] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 1024 4
+
+real	0m31.638s
+user	0m0.516s
+sys	0m0.040s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:14:08 WEST 2020 - Run 5 for OIS with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:14:09.019 WEST [29045] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:14:09.024 WEST [29045] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:14:09.091 WEST [29046] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 16:14:09.115 WEST [29045] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:14:09.213 WEST [29045] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 1024 5
+
+real	0m31.683s
+user	0m0.580s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:14:45 WEST 2020 - Run 1 for OIS with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:14:46.455 WEST [29599] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:14:46.460 WEST [29599] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:14:46.527 WEST [29600] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 16:14:46.531 WEST [29599] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:14:46.548 WEST [29599] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 4096 1
+
+real	0m46.502s
+user	0m0.628s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:15:38 WEST 2020 - Run 2 for OIS with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:15:39.115 WEST [30168] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:15:39.121 WEST [30168] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:15:39.189 WEST [30169] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 16:15:39.193 WEST [30168] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:15:39.208 WEST [30168] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 4096 2
+
+real	0m46.507s
+user	0m0.600s
+sys	0m0.080s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:16:30 WEST 2020 - Run 3 for OIS with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:16:31.633 WEST [30763] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:16:31.639 WEST [30763] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:16:31.707 WEST [30764] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 16:16:31.712 WEST [30763] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:16:31.725 WEST [30763] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 4096 3
+
+real	0m46.510s
+user	0m0.516s
+sys	0m0.080s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:17:23 WEST 2020 - Run 4 for OIS with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:17:24.409 WEST [31324] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:17:24.414 WEST [31324] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:17:24.478 WEST [31325] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 16:17:24.482 WEST [31324] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:17:24.501 WEST [31324] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 4096 4
+
+real	0m46.437s
+user	0m0.616s
+sys	0m0.068s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:18:15 WEST 2020 - Run 5 for OIS with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:18:16.895 WEST [31919] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:18:16.901 WEST [31919] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:18:16.968 WEST [31920] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 16:18:16.973 WEST [31919] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:18:16.988 WEST [31919] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 4096 5
+
+real	0m46.538s
+user	0m0.656s
+sys	0m0.044s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 16:19:08 WEST 2020 - Run 1 for OIS with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:19:09.625 WEST [32489] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:19:09.630 WEST [32489] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:19:09.695 WEST [32490] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 16:19:09.700 WEST [32489] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:19:09.717 WEST [32489] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16384 1
+
+real	2m0.897s
+user	0m0.676s
+sys	0m0.092s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:21:16 WEST 2020 - Run 2 for OIS with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:21:17.832 WEST [687] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:21:17.837 WEST [687] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:21:17.904 WEST [688] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 16:21:17.910 WEST [687] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:21:17.922 WEST [687] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16384 2
+
+real	1m58.085s
+user	0m0.656s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:23:21 WEST 2020 - Run 3 for OIS with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:23:23.084 WEST [1325] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:23:23.090 WEST [1325] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:23:23.155 WEST [1326] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 16:23:23.160 WEST [1325] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:23:23.176 WEST [1325] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16384 3
+
+real	1m57.984s
+user	0m0.628s
+sys	0m0.092s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:25:27 WEST 2020 - Run 4 for OIS with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:25:28.038 WEST [1957] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:25:28.043 WEST [1957] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:25:28.113 WEST [1958] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 16:25:28.117 WEST [1957] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:25:28.128 WEST [1957] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16384 4
+
+real	1m58.190s
+user	0m0.680s
+sys	0m0.060s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:27:32 WEST 2020 - Run 5 for OIS with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:27:33.360 WEST [2600] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:27:33.366 WEST [2600] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:27:33.432 WEST [2601] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 16:27:33.436 WEST [2600] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:27:33.456 WEST [2600] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 16384 5
+
+real	1m58.332s
+user	0m0.668s
+sys	0m0.064s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:29:37 WEST 2020 - Run 1 for OIS with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:29:40.446 WEST [3234] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:29:40.451 WEST [3234] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:29:40.520 WEST [3235] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 16:29:40.525 WEST [3234] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:29:40.537 WEST [3234] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 65536 1
+
+real	6m25.667s
+user	0m0.936s
+sys	0m0.192s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:36:12 WEST 2020 - Run 2 for OIS with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:36:15.571 WEST [4103] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:36:15.576 WEST [4103] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:36:15.639 WEST [4104] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 16:36:15.643 WEST [4103] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:36:15.655 WEST [4103] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 65536 2
+
+real	6m20.526s
+user	0m0.836s
+sys	0m0.216s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:42:42 WEST 2020 - Run 3 for OIS with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:42:45.331 WEST [4949] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:42:45.336 WEST [4949] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:42:45.404 WEST [4950] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 16:42:45.409 WEST [4949] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:42:45.422 WEST [4949] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 65536 3
+
+real	6m20.587s
+user	0m0.840s
+sys	0m0.220s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tue Apr 14 16:49:12 WEST 2020 - Run 4 for OIS with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:49:15.211 WEST [5792] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:49:15.216 WEST [5792] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:49:15.280 WEST [5793] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 16:49:15.285 WEST [5792] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:49:15.302 WEST [5792] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 65536 4
+
+real	6m19.296s
+user	0m0.960s
+sys	0m0.188s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down...... done
+server stopped
+Tue Apr 14 16:55:41 WEST 2020 - Run 5 for OIS with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 16:55:45.065 WEST [6636] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 16:55:45.070 WEST [6636] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 16:55:45.135 WEST [6637] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 16:55:45.139 WEST [6636] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 16:55:45.156 WEST [6636] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run OIS 65536 5
+
+real	6m19.235s
+user	0m0.816s
+sys	0m0.208s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down..... done
+server stopped
+Tsize is 6
+Tue Apr 14 18:40:09 WEST 2020 - Run 1 for BASELINE with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:40:10.285 WEST [13857] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:40:10.290 WEST [13857] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:40:10.356 WEST [13858] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 18:40:10.361 WEST [13857] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:40:10.378 WEST [13857] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16 1
+
+real	0m27.934s
+user	0m0.528s
+sys	0m0.036s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:40:42 WEST 2020 - Run 2 for BASELINE with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:40:43.653 WEST [14379] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:40:43.658 WEST [14379] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:40:43.725 WEST [14380] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 18:40:43.730 WEST [14379] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:40:43.745 WEST [14379] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16 2
+
+real	0m27.887s
+user	0m0.576s
+sys	0m0.016s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:41:16 WEST 2020 - Run 3 for BASELINE with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:41:16.886 WEST [14924] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:41:16.891 WEST [14924] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:41:16.950 WEST [14925] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 18:41:16.954 WEST [14924] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:41:16.979 WEST [14924] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16 3
+
+real	0m27.849s
+user	0m0.604s
+sys	0m0.044s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:41:49 WEST 2020 - Run 4 for BASELINE with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:41:50.039 WEST [15419] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:41:50.043 WEST [15419] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:41:50.107 WEST [15420] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 18:41:50.111 WEST [15419] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:41:50.132 WEST [15419] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16 4
+
+real	0m27.969s
+user	0m0.604s
+sys	0m0.032s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:42:22 WEST 2020 - Run 5 for BASELINE with table size 16.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:42:23.358 WEST [15937] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:42:23.365 WEST [15937] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:42:23.428 WEST [15938] LOG:  database system was shut down at 2020-03-03 17:50:40 WET
+2020-04-14 18:42:23.435 WEST [15937] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:42:23.451 WEST [15937] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16 5
+
+real	0m27.902s
+user	0m0.556s
+sys	0m0.032s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:42:55 WEST 2020 - Run 1 for BASELINE with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:42:56.634 WEST [16429] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:42:56.639 WEST [16429] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:42:56.704 WEST [16430] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 18:42:56.708 WEST [16429] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:42:56.727 WEST [16429] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 64 1
+
+real	0m28.188s
+user	0m0.572s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:43:29 WEST 2020 - Run 2 for BASELINE with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:43:30.094 WEST [16921] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:43:30.100 WEST [16921] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:43:30.166 WEST [16922] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 18:43:30.171 WEST [16921] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:43:30.187 WEST [16921] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 64 2
+
+real	0m28.075s
+user	0m0.500s
+sys	0m0.068s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:44:02 WEST 2020 - Run 3 for BASELINE with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:44:03.636 WEST [17412] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:44:03.641 WEST [17412] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:44:03.707 WEST [17413] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 18:44:03.712 WEST [17412] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:44:03.728 WEST [17412] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 64 3
+
+real	0m28.170s
+user	0m0.588s
+sys	0m0.040s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:44:36 WEST 2020 - Run 4 for BASELINE with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:44:37.021 WEST [17933] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:44:37.032 WEST [17933] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:44:37.101 WEST [17934] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 18:44:37.105 WEST [17933] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:44:37.115 WEST [17933] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 64 4
+
+real	0m28.071s
+user	0m0.484s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:45:09 WEST 2020 - Run 5 for BASELINE with table size 64.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:45:10.387 WEST [18437] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:45:10.393 WEST [18437] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:45:10.461 WEST [18438] LOG:  database system was shut down at 2020-03-03 17:50:46 WET
+2020-04-14 18:45:10.466 WEST [18437] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:45:10.480 WEST [18437] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 64 5
+
+real	0m28.168s
+user	0m0.432s
+sys	0m0.068s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:45:43 WEST 2020 - Run 1 for BASELINE with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:45:44.039 WEST [18930] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:45:44.044 WEST [18930] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:45:44.092 WEST [18931] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 18:45:44.096 WEST [18930] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:45:44.132 WEST [18930] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 256 1
+
+real	0m28.845s
+user	0m0.456s
+sys	0m0.064s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:46:17 WEST 2020 - Run 2 for BASELINE with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:46:18.231 WEST [19425] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:46:18.236 WEST [19425] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:46:18.284 WEST [19426] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 18:46:18.288 WEST [19425] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:46:18.324 WEST [19425] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 256 2
+
+real	0m28.839s
+user	0m0.500s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:46:51 WEST 2020 - Run 3 for BASELINE with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:46:52.315 WEST [19947] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:46:52.321 WEST [19947] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:46:52.387 WEST [19948] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 18:46:52.391 WEST [19947] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:46:52.407 WEST [19947] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 256 3
+
+real	0m28.917s
+user	0m0.592s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:47:25 WEST 2020 - Run 4 for BASELINE with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:47:26.546 WEST [20439] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:47:26.552 WEST [20439] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:47:26.622 WEST [20440] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 18:47:26.626 WEST [20439] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:47:26.639 WEST [20439] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 256 4
+
+real	0m28.837s
+user	0m0.592s
+sys	0m0.044s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:47:59 WEST 2020 - Run 5 for BASELINE with table size 256.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:48:00.674 WEST [20929] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:48:00.679 WEST [20929] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:48:00.746 WEST [20930] LOG:  database system was shut down at 2020-03-03 17:50:52 WET
+2020-04-14 18:48:00.750 WEST [20929] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:48:00.767 WEST [20929] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 256 5
+
+real	0m28.905s
+user	0m0.592s
+sys	0m0.040s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:48:33 WEST 2020 - Run 1 for BASELINE with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:48:34.871 WEST [21451] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:48:34.876 WEST [21451] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:48:34.939 WEST [21452] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 18:48:34.973 WEST [21451] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:48:35.065 WEST [21451] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 1024 1
+
+real	0m32.641s
+user	0m0.608s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:49:12 WEST 2020 - Run 2 for BASELINE with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:49:12.901 WEST [21957] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:49:12.906 WEST [21957] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:49:12.966 WEST [21958] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 18:49:12.992 WEST [21957] LOG:  database system is ready to accept connections
+ done
+server started
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 1024 2
+
+real	0m32.650s
+user	0m0.552s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:49:50 WEST 2020 - Run 3 for BASELINE with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:49:50.859 WEST [22450] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:49:50.865 WEST [22450] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:49:50.931 WEST [22451] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 18:49:50.955 WEST [22450] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:49:51.052 WEST [22450] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 1024 3
+
+real	0m32.736s
+user	0m0.628s
+sys	0m0.024s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:50:28 WEST 2020 - Run 4 for BASELINE with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:50:28.998 WEST [22970] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:50:29.004 WEST [22970] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:50:29.068 WEST [22971] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 18:50:29.095 WEST [22970] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:50:29.192 WEST [22970] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 1024 4
+
+real	0m32.532s
+user	0m0.592s
+sys	0m0.044s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:51:06 WEST 2020 - Run 5 for BASELINE with table size 1024.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:51:07.195 WEST [23460] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:51:07.201 WEST [23460] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:51:07.258 WEST [23461] LOG:  database system was shut down at 2020-03-03 17:50:59 WET
+2020-04-14 18:51:07.286 WEST [23460] LOG:  database system is ready to accept connections
+ done
+server started
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 1024 5
+
+real	0m32.707s
+user	0m0.608s
+sys	0m0.052s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:51:44 WEST 2020 - Run 1 for BASELINE with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:51:45.354 WEST [23970] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:51:45.360 WEST [23970] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:51:45.424 WEST [23971] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 18:51:45.428 WEST [23970] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:51:45.446 WEST [23970] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 4096 1
+
+real	0m49.843s
+user	0m0.588s
+sys	0m0.040s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:52:39 WEST 2020 - Run 2 for BASELINE with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:52:40.734 WEST [24509] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:52:40.743 WEST [24509] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:52:40.810 WEST [24510] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 18:52:40.814 WEST [24509] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:52:40.827 WEST [24509] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 4096 2
+
+real	0m49.821s
+user	0m0.592s
+sys	0m0.080s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:53:35 WEST 2020 - Run 3 for BASELINE with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:53:36.143 WEST [25002] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:53:36.148 WEST [25002] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:53:36.206 WEST [25003] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 18:53:36.210 WEST [25002] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:53:36.235 WEST [25002] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 4096 3
+
+real	0m49.764s
+user	0m0.500s
+sys	0m0.024s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:54:30 WEST 2020 - Run 4 for BASELINE with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:54:31.264 WEST [25539] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:54:31.270 WEST [25539] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:54:31.333 WEST [25540] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 18:54:31.337 WEST [25539] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:54:31.352 WEST [25539] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 4096 4
+
+real	0m49.812s
+user	0m0.580s
+sys	0m0.048s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:55:25 WEST 2020 - Run 5 for BASELINE with table size 4096.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:55:26.616 WEST [26046] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:55:26.621 WEST [26046] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:55:26.682 WEST [26047] LOG:  database system was shut down at 2020-03-03 17:51:06 WET
+2020-04-14 18:55:26.687 WEST [26046] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:55:26.709 WEST [26046] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 4096 5
+
+real	0m49.819s
+user	0m0.608s
+sys	0m0.056s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:56:21 WEST 2020 - Run 1 for BASELINE with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:56:22.175 WEST [26582] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:56:22.181 WEST [26582] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:56:22.253 WEST [26583] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 18:56:22.257 WEST [26582] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:56:22.267 WEST [26582] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16384 1
+
+real	2m8.841s
+user	0m0.700s
+sys	0m0.064s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 18:58:36 WEST 2020 - Run 2 for BASELINE with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 18:58:37.116 WEST [27158] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 18:58:37.121 WEST [27158] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 18:58:37.186 WEST [27159] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 18:58:37.191 WEST [27158] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 18:58:37.208 WEST [27158] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16384 2
+
+real	2m8.761s
+user	0m0.612s
+sys	0m0.084s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 19:00:51 WEST 2020 - Run 3 for BASELINE with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:00:52.009 WEST [27744] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:00:52.014 WEST [27744] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:00:52.081 WEST [27745] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 19:00:52.086 WEST [27744] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:00:52.100 WEST [27744] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16384 3
+
+real	2m8.582s
+user	0m0.508s
+sys	0m0.092s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 19:03:05 WEST 2020 - Run 4 for BASELINE with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:03:06.671 WEST [28314] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:03:06.676 WEST [28314] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:03:06.742 WEST [28315] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 19:03:06.747 WEST [28314] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:03:06.764 WEST [28314] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16384 4
+
+real	2m8.504s
+user	0m0.692s
+sys	0m0.080s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 19:05:20 WEST 2020 - Run 5 for BASELINE with table size 16384.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:05:21.250 WEST [28903] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:05:21.255 WEST [28903] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:05:21.321 WEST [28904] LOG:  database system was shut down at 2020-03-03 17:51:18 WET
+2020-04-14 19:05:21.328 WEST [28903] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:05:21.342 WEST [28903] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 16384 5
+
+real	2m8.509s
+user	0m0.660s
+sys	0m0.100s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down.... done
+server stopped
+Tue Apr 14 19:07:34 WEST 2020 - Run 1 for BASELINE with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:07:37.415 WEST [29477] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:07:37.420 WEST [29477] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:07:37.469 WEST [29478] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 19:07:37.473 WEST [29477] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:07:37.507 WEST [29477] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 65536 1
+
+real	8m6.686s
+user	0m0.892s
+sys	0m0.228s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down....... done
+server stopped
+Tue Apr 14 19:15:52 WEST 2020 - Run 2 for BASELINE with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:15:54.446 WEST [30356] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:15:54.451 WEST [30356] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:15:54.512 WEST [30357] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 19:15:54.516 WEST [30356] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:15:54.543 WEST [30356] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 65536 2
+
+real	8m6.659s
+user	0m1.004s
+sys	0m0.276s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down....... done
+server stopped
+Tue Apr 14 19:24:08 WEST 2020 - Run 3 for BASELINE with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:24:10.740 WEST [31236] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:24:10.747 WEST [31236] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:24:10.783 WEST [31237] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 19:24:10.787 WEST [31236] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:24:10.833 WEST [31236] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 65536 3
+
+real	8m6.397s
+user	0m1.024s
+sys	0m0.252s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down......... done
+server stopped
+Tue Apr 14 19:32:27 WEST 2020 - Run 4 for BASELINE with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:32:29.205 WEST [32131] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:32:29.210 WEST [32131] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:32:29.277 WEST [32132] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 19:32:29.282 WEST [32131] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:32:29.295 WEST [32131] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 65536 4
+
+real	8m6.773s
+user	0m1.000s
+sys	0m0.344s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down....... done
+server stopped
+Tue Apr 14 19:40:44 WEST 2020 - Run 5 for BASELINE with table size 65536.
+Connection to cloud105 closed.
+Connection to cloud105 closed.
+waiting for server to start....2020-04-14 19:40:45.974 WEST [572] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2020-04-14 19:40:45.979 WEST [572] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-14 19:40:46.043 WEST [573] LOG:  database system was shut down at 2020-03-03 17:51:48 WET
+2020-04-14 19:40:46.047 WEST [572] LOG:  database system is ready to accept connections
+ done
+server started
+2020-04-14 19:40:46.066 WEST [572] LOG:  received SIGHUP, reloading configuration files
+Connection to cloud105 closed.
+CREATE EXTENSION
+CREATE TABLE
+CREATE INDEX
+CREATE FOREIGN TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+ update_mapping 
+----------------
+ 
+(1 row)
+
+CREATE FUNCTION
+ update_mapping_run 
+--------------------
+ 
+(1 row)
+
+ycsb run BASELINE 65536 5
+
+real	8m7.450s
+user	0m0.988s
+sys	0m0.296s
+pkill: killing pid 1863 failed: Operation not permitted
+pkill: killing pid 1897 failed: Operation not permitted
+pkill: killing pid 12893 failed: Operation not permitted
+pkill: killing pid 13137 failed: Operation not permitted
+waiting for server to shut down....... done
+server stopped

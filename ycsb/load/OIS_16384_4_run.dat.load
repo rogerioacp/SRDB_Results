@@ -1,0 +1,49 @@
+/usr/lib/jvm/java-8-oracle/bin/java -cp /home/gsd/pgs/ycsb/postgrenosql-binding/conf:/home/gsd/pgs/ycsb/conf:/home/gsd/pgs/ycsb/lib/postgresql-9.4.1212.jre7.jar:/home/gsd/pgs/ycsb/lib/json-simple-1.1.1.jar:/home/gsd/pgs/ycsb/lib/postgrenosql-binding-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/HdrHistogram-2.1.11.jar:/home/gsd/pgs/ycsb/lib/core-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/slf4j-simple-1.7.13.jar:/home/gsd/pgs/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/gsd/pgs/ycsb/lib/slf4j-api-1.7.13.jar site.ycsb.Client -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloada -P postgrenosql.properties -t
+Command line: -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloada -P postgrenosql.properties -t
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 2400 secs
+2020-04-14 16:25:28:586 0 sec: 0 operations; est completion in 0 second 
+2020-04-14 16:25:38:569 10 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:25:48:569 20 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Init soe select init_soe(1, CAST( get_ftw_oid() as INTEGER), 1, CAST (get_original_index_oid() as INTEGER))
+2020-04-14 16:25:58:569 30 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:26:08:569 40 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Loading oblivious tables.
+2020-04-14 16:26:18:569 50 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:26:28:569 60 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:26:38:569 70 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:26:48:569 80 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:26:58:569 90 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:27:08:569 100 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:27:18:569 110 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Load complete
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Could not wait until max specified time, TerminatorThread interrupted.
+2020-04-14 16:27:26:554 0 sec: 1 operations; 0.13 current ops/sec; [READ: Count=1, Max=6095, Min=6092, Avg=6094, 90=6095, 99=6095, 99.9=6095, 99.99=6095] [CLEANUP: Count=1, Max=284927, Min=284672, Avg=284800, 90=284927, 99=284927, 99.9=284927, 99.99=284927] 
+[OVERALL], RunTime(ms), 342
+[OVERALL], Throughput(ops/sec), 2.9239766081871346
+[TOTAL_GCS_PS_Scavenge], Count, 0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.0
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1
+[READ], AverageLatency(us), 6094.0
+[READ], MinLatency(us), 6092
+[READ], MaxLatency(us), 6095
+[READ], 95thPercentileLatency(us), 6095
+[READ], 99thPercentileLatency(us), 6095
+[READ], Return=OK, 1
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 284800.0
+[CLEANUP], MinLatency(us), 284672
+[CLEANUP], MaxLatency(us), 284927
+[CLEANUP], 95thPercentileLatency(us), 284927
+[CLEANUP], 99thPercentileLatency(us), 284927

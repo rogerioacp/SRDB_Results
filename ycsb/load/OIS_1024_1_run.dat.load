@@ -1,0 +1,41 @@
+/usr/lib/jvm/java-8-oracle/bin/java -cp /home/gsd/pgs/ycsb/postgrenosql-binding/conf:/home/gsd/pgs/ycsb/conf:/home/gsd/pgs/ycsb/lib/postgresql-9.4.1212.jre7.jar:/home/gsd/pgs/ycsb/lib/json-simple-1.1.1.jar:/home/gsd/pgs/ycsb/lib/postgrenosql-binding-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/HdrHistogram-2.1.11.jar:/home/gsd/pgs/ycsb/lib/core-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/slf4j-simple-1.7.13.jar:/home/gsd/pgs/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/gsd/pgs/ycsb/lib/slf4j-api-1.7.13.jar site.ycsb.Client -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloada -P postgrenosql.properties -t
+Command line: -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloada -P postgrenosql.properties -t
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 2400 secs
+2020-04-14 16:11:40:471 0 sec: 0 operations; est completion in 0 second 
+2020-04-14 16:11:50:455 10 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:12:00:455 20 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Init soe select init_soe(1, CAST( get_ftw_oid() as INTEGER), 1, CAST (get_original_index_oid() as INTEGER))
+Loading oblivious tables.
+2020-04-14 16:12:10:455 30 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Load complete
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Could not wait until max specified time, TerminatorThread interrupted.
+2020-04-14 16:12:11:928 0 sec: 1 operations; 0.68 current ops/sec; [READ: Count=1, Max=5359, Min=5356, Avg=5358, 90=5359, 99=5359, 99.9=5359, 99.99=5359] [CLEANUP: Count=1, Max=267263, Min=267008, Avg=267136, 90=267263, 99=267263, 99.9=267263, 99.99=267263] 
+[OVERALL], RunTime(ms), 322
+[OVERALL], Throughput(ops/sec), 3.1055900621118013
+[TOTAL_GCS_PS_Scavenge], Count, 0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.0
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1
+[READ], AverageLatency(us), 5358.0
+[READ], MinLatency(us), 5356
+[READ], MaxLatency(us), 5359
+[READ], 95thPercentileLatency(us), 5359
+[READ], 99thPercentileLatency(us), 5359
+[READ], Return=OK, 1
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 267136.0
+[CLEANUP], MinLatency(us), 267008
+[CLEANUP], MaxLatency(us), 267263
+[CLEANUP], 95thPercentileLatency(us), 267263
+[CLEANUP], 99thPercentileLatency(us), 267263

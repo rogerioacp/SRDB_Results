@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+<isolation>TRANSACTION_SERIALIZABLE</isolation>
+<scalefactor>10</scalefactor>
+<terminals>1</terminals>
+<works>
+<work>
+<time>2400</time>
+<rate>1000</rate>
+<weights>100</weights>
+</work>
+</works>
+<executionmode>OIS</executionmode>
+<transactiontypes>
+<transactiontype>
+<name>GetObliviousPageAuthenticated</name>
+</transactiontype>
+</transactiontypes>
+</configuration>

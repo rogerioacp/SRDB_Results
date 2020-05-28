@@ -23,12 +23,12 @@ genDiskFiles(){
     rm writes.dat
 }
 
-genDiskFiles "dstat/dforestoram_z4_divoram/OIS_65536_*" forest1
+genDiskFiles "dstatcheck/dforestoram_z4_divoram/OIS_65536_*" forest1
 genDiskFiles "dstat/dtforestoram_z4_scan/OIS_10*" forest10 
 genDiskFiles "dstat/dtforestoram_z4_scan/OIS_40*" forest40
 
-genDiskFiles "dstat/dtpathoram_z4_singleoram/BASELINE_65536*" path10
-#genDiskFiles "dstat/dtpathoram_z4_soramscan/BASELINE_40*" path40
+genDiskFiles "dstatcheck/dtpathoram_z4_singleoram/BASELINE_65536*" path1
+#genDiskFiles "dstat/dtpathoram_z4_singleoramscan/BASELINE_40*" path40
 #genDiskFiles "dstat/dtpathoram_z4_singleoramscan/BASELINE_40*" path40
 
 #genDiskFiles "dstatcheck/dforestoram_z4_divoram/OIS_65536*" forest 

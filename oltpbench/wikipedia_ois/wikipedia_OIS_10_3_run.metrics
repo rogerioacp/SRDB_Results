@@ -24,8 +24,8 @@
   {
    "blk_read_time": "0",
    "blk_write_time": "0",
-   "blks_hit": "39923926",
-   "blks_read": "282574",
+   "blks_hit": "33910330",
+   "blks_read": "282623",
    "conflicts": "0",
    "datid": "16384",
    "datname": "test",
@@ -35,11 +35,11 @@
    "temp_bytes": "0",
    "temp_files": "0",
    "tup_deleted": "256",
-   "tup_fetched": "2501488",
+   "tup_fetched": "2064190",
    "tup_inserted": "1356535",
-   "tup_returned": "2890687",
+   "tup_returned": "2398720",
    "tup_updated": "281",
-   "xact_commit": "628206",
+   "xact_commit": "573538",
    "xact_rollback": "0"
   },
   {
@@ -107,7 +107,7 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310116",
+   "idx_scan": "255448",
    "idx_tup_fetch": "0",
    "idx_tup_read": "0",
    "indexrelid": "16410",
@@ -217,9 +217,9 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310116",
-   "idx_tup_fetch": "310116",
-   "idx_tup_read": "310116",
+   "idx_scan": "255448",
+   "idx_tup_fetch": "255448",
+   "idx_tup_read": "255448",
    "indexrelid": "16466",
    "indexrelname": "page_pkey",
    "relid": "16455",
@@ -227,9 +227,9 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310116",
-   "idx_tup_fetch": "310116",
-   "idx_tup_read": "310116",
+   "idx_scan": "255448",
+   "idx_tup_fetch": "255448",
+   "idx_tup_read": "255448",
    "indexrelid": "16468",
    "indexrelname": "page_page_namespace_page_title_key",
    "relid": "16455",
@@ -307,7 +307,7 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310116",
+   "idx_scan": "255448",
    "idx_tup_fetch": "0",
    "idx_tup_read": "0",
    "indexrelid": "16497",
@@ -437,9 +437,9 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310116",
-   "idx_tup_fetch": "310116",
-   "idx_tup_read": "310116",
+   "idx_scan": "255448",
+   "idx_tup_fetch": "255448",
+   "idx_tup_read": "255448",
    "indexrelid": "16557",
    "indexrelname": "revision_rev_page_rev_id_key",
    "relid": "16543",
@@ -487,9 +487,9 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310116",
-   "idx_tup_fetch": "310116",
-   "idx_tup_read": "310116",
+   "idx_scan": "255448",
+   "idx_tup_fetch": "255448",
+   "idx_tup_read": "255448",
    "indexrelid": "16572",
    "indexrelname": "text_pkey",
    "relid": "16565",
@@ -497,7 +497,7 @@
    "schemaname": "public"
   },
   {
-   "idx_scan": "310114",
+   "idx_scan": "255445",
    "idx_tup_fetch": "0",
    "idx_tup_read": "0",
    "indexrelid": "16579",
@@ -559,17 +559,17 @@
  ],
  "pg_statio_user_tables": [
   {
-   "heap_blks_hit": "449488",
-   "heap_blks_read": "2810",
-   "idx_blks_hit": "1152220",
-   "idx_blks_read": "438",
+   "heap_blks_hit": "394817",
+   "heap_blks_read": "2813",
+   "idx_blks_hit": "988214",
+   "idx_blks_read": "440",
    "relid": "16565",
    "relname": "text",
    "schemaname": "public",
-   "tidx_blks_hit": "1930359",
-   "tidx_blks_read": "3361",
-   "toast_blks_hit": "2053601",
-   "toast_blks_read": "251554"
+   "tidx_blks_hit": "1848363",
+   "tidx_blks_read": "3367",
+   "toast_blks_hit": "1971587",
+   "toast_blks_read": "251578"
   },
   {
    "heap_blks_hit": "21692",
@@ -587,7 +587,7 @@
   {
    "heap_blks_hit": "0",
    "heap_blks_read": "0",
-   "idx_blks_hit": "310161",
+   "idx_blks_hit": "255493",
    "idx_blks_read": "5",
    "relid": "16491",
    "relname": "page_restrictions",
@@ -600,7 +600,7 @@
   {
    "heap_blks_hit": "0",
    "heap_blks_read": "0",
-   "idx_blks_hit": "310132",
+   "idx_blks_hit": "255463",
    "idx_blks_read": "2",
    "relid": "16574",
    "relname": "user_groups",
@@ -611,7 +611,7 @@
    "toast_blks_read": null
   },
   {
-   "heap_blks_hit": "310118",
+   "heap_blks_hit": "255449",
    "heap_blks_read": "1",
    "idx_blks_hit": null,
    "idx_blks_read": null,
@@ -637,10 +637,10 @@
    "toast_blks_read": null
   },
   {
-   "heap_blks_hit": "441789",
-   "heap_blks_read": "1809",
-   "idx_blks_hit": "2666020",
-   "idx_blks_read": "4402",
+   "heap_blks_hit": "387118",
+   "heap_blks_read": "1812",
+   "idx_blks_hit": "2502014",
+   "idx_blks_read": "4404",
    "relid": "16543",
    "relname": "revision",
    "schemaname": "public",
@@ -650,9 +650,9 @@
    "toast_blks_read": "0"
   },
   {
-   "heap_blks_hit": "14938080",
+   "heap_blks_hit": "12313968",
    "heap_blks_read": "10080",
-   "idx_blks_hit": "12727316",
+   "idx_blks_hit": "10485887",
    "idx_blks_read": "3969",
    "relid": "121201",
    "relname": "mirror_usertable",
@@ -676,10 +676,10 @@
    "toast_blks_read": "0"
   },
   {
-   "heap_blks_hit": "630665",
-   "heap_blks_read": "154",
-   "idx_blks_hit": "1319625",
-   "idx_blks_read": "233",
+   "heap_blks_hit": "521328",
+   "heap_blks_read": "155",
+   "idx_blks_hit": "1100945",
+   "idx_blks_read": "241",
    "relid": "16455",
    "relname": "page",
    "schemaname": "public",
@@ -691,7 +691,7 @@
   {
    "heap_blks_hit": "0",
    "heap_blks_read": "0",
-   "idx_blks_hit": "310170",
+   "idx_blks_hit": "255502",
    "idx_blks_read": "6",
    "relid": "16387",
    "relname": "ipblocks",
@@ -742,7 +742,7 @@
   }
  ],
  "pg_stat_bgwriter": [{
-  "buffers_alloc": "282481",
+  "buffers_alloc": "282530",
   "buffers_backend": "279958",
   "buffers_backend_fsync": "0",
   "buffers_checkpoint": "243982",
@@ -762,7 +762,7 @@
    "idx_scan": "0",
    "idx_tup_fetch": "0",
    "last_analyze": null,
-   "last_autoanalyze": "2020-04-12 22:49:35.264024+00",
+   "last_autoanalyze": "2020-04-14 08:58:34.974591+00",
    "last_autovacuum": null,
    "last_vacuum": null,
    "n_dead_tup": "0",
@@ -783,7 +783,7 @@
    "analyze_count": "0",
    "autoanalyze_count": "0",
    "autovacuum_count": "0",
-   "idx_scan": "310116",
+   "idx_scan": "255448",
    "idx_tup_fetch": "0",
    "last_analyze": null,
    "last_autoanalyze": null,
@@ -807,8 +807,8 @@
    "analyze_count": "0",
    "autoanalyze_count": "6",
    "autovacuum_count": "0",
-   "idx_scan": "310136",
-   "idx_tup_fetch": "310136",
+   "idx_scan": "255468",
+   "idx_tup_fetch": "255468",
    "last_analyze": null,
    "last_autoanalyze": "2020-04-12 17:21:03.709466+00",
    "last_autovacuum": null,
@@ -855,7 +855,7 @@
    "analyze_count": "0",
    "autoanalyze_count": "0",
    "autovacuum_count": "0",
-   "idx_scan": "310114",
+   "idx_scan": "255445",
    "idx_tup_fetch": "0",
    "last_analyze": null,
    "last_autoanalyze": null,
@@ -895,8 +895,8 @@
    "relid": "121198",
    "relname": "obl_ftw",
    "schemaname": "public",
-   "seq_scan": "310116",
-   "seq_tup_read": "310116",
+   "seq_scan": "255447",
+   "seq_tup_read": "255447",
    "vacuum_count": "0"
   },
   {
@@ -951,8 +951,8 @@
    "analyze_count": "0",
    "autoanalyze_count": "10",
    "autovacuum_count": "0",
-   "idx_scan": "310116",
-   "idx_tup_fetch": "310116",
+   "idx_scan": "255448",
+   "idx_tup_fetch": "255448",
    "last_analyze": null,
    "last_autoanalyze": "2020-04-12 17:30:03.861163+00",
    "last_autovacuum": null,
@@ -1023,8 +1023,8 @@
    "analyze_count": "0",
    "autoanalyze_count": "1",
    "autovacuum_count": "0",
-   "idx_scan": "620232",
-   "idx_tup_fetch": "620232",
+   "idx_scan": "510896",
+   "idx_tup_fetch": "510896",
    "last_analyze": null,
    "last_autoanalyze": "2020-04-12 17:16:03.300982+00",
    "last_autovacuum": null,
@@ -1071,7 +1071,7 @@
    "analyze_count": "0",
    "autoanalyze_count": "0",
    "autovacuum_count": "0",
-   "idx_scan": "310116",
+   "idx_scan": "255448",
    "idx_tup_fetch": "0",
    "last_analyze": null,
    "last_autoanalyze": null,
@@ -1112,7 +1112,7 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "310125",
+   "idx_blks_hit": "255457",
    "idx_blks_read": "1",
    "indexrelid": "16410",
    "indexrelname": "idx_ipb_user",
@@ -1211,8 +1211,8 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "639914",
-   "idx_blks_read": "41",
+   "idx_blks_hit": "530577",
+   "idx_blks_read": "42",
    "indexrelid": "16466",
    "indexrelname": "page_pkey",
    "relid": "16455",
@@ -1220,8 +1220,8 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "640249",
-   "idx_blks_read": "107",
+   "idx_blks_hit": "530906",
+   "idx_blks_read": "114",
    "indexrelid": "16468",
    "indexrelname": "page_page_namespace_page_title_key",
    "relid": "16455",
@@ -1292,7 +1292,7 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "310125",
+   "idx_blks_hit": "255457",
    "idx_blks_read": "1",
    "indexrelid": "16497",
    "indexrelname": "page_restrictions_pr_page_pr_type_key",
@@ -1409,8 +1409,8 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "1159101",
-   "idx_blks_read": "401",
+   "idx_blks_hit": "995095",
+   "idx_blks_read": "403",
    "indexrelid": "16557",
    "indexrelname": "revision_rev_page_rev_id_key",
    "relid": "16543",
@@ -1454,8 +1454,8 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "1152220",
-   "idx_blks_read": "438",
+   "idx_blks_hit": "988214",
+   "idx_blks_read": "440",
    "indexrelid": "16572",
    "indexrelname": "text_pkey",
    "relid": "16565",
@@ -1463,7 +1463,7 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "310123",
+   "idx_blks_hit": "255454",
    "idx_blks_read": "1",
    "indexrelid": "16579",
    "indexrelname": "user_groups_ug_user_ug_group_key",
@@ -1508,7 +1508,7 @@
    "schemaname": "public"
   },
   {
-   "idx_blks_hit": "12727316",
+   "idx_blks_hit": "10485887",
    "idx_blks_read": "3969",
    "indexrelid": "121216",
    "indexrelname": "mirror_usertable_key",

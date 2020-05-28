@@ -1,0 +1,75 @@
+/usr/lib/jvm/java-8-oracle/bin/java -cp /home/gsd/pgs/ycsb/postgrenosql-binding/conf:/home/gsd/pgs/ycsb/conf:/home/gsd/pgs/ycsb/lib/postgresql-9.4.1212.jre7.jar:/home/gsd/pgs/ycsb/lib/json-simple-1.1.1.jar:/home/gsd/pgs/ycsb/lib/postgrenosql-binding-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/HdrHistogram-2.1.11.jar:/home/gsd/pgs/ycsb/lib/core-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/slf4j-simple-1.7.13.jar:/home/gsd/pgs/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/gsd/pgs/ycsb/lib/slf4j-api-1.7.13.jar site.ycsb.Client -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloada -P postgrenosql.properties -t
+Command line: -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloada -P postgrenosql.properties -t
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 2400 secs
+2020-04-14 16:55:45:636 0 sec: 0 operations; est completion in 0 second 
+2020-04-14 16:55:55:619 10 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:56:05:619 20 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Init soe select init_soe(1, CAST( get_ftw_oid() as INTEGER), 1, CAST (get_original_index_oid() as INTEGER))
+2020-04-14 16:56:15:619 30 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:56:25:619 40 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:56:35:619 50 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:56:45:619 60 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:56:55:619 70 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Loading oblivious tables.
+2020-04-14 16:57:05:619 80 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:57:15:619 90 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:57:25:619 100 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:57:35:619 110 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:57:45:619 120 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:57:55:619 130 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:58:05:619 140 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:58:15:619 150 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:58:25:619 160 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:58:35:619 170 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:58:45:619 180 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:58:55:619 190 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:59:05:619 200 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:59:15:619 210 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:59:25:619 220 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:59:35:619 230 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:59:45:619 240 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 16:59:55:619 250 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:00:05:619 260 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:00:15:619 270 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:00:25:619 280 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:00:35:619 290 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:00:45:619 300 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:00:55:619 310 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:01:05:619 320 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:01:15:619 330 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:01:25:619 340 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:01:35:619 350 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:01:45:619 360 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+2020-04-14 17:01:55:619 370 sec: 0 operations; est completion in 106751991167300 days 15 hours 
+Load complete
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Could not wait until max specified time, TerminatorThread interrupted.
+2020-04-14 17:02:04:684 0 sec: 1 operations; 0.11 current ops/sec; [READ: Count=1, Max=8159, Min=8156, Avg=8158, 90=8159, 99=8159, 99.9=8159, 99.99=8159] [CLEANUP: Count=1, Max=250367, Min=250240, Avg=250304, 90=250367, 99=250367, 99.9=250367, 99.99=250367] 
+[OVERALL], RunTime(ms), 310
+[OVERALL], Throughput(ops/sec), 3.225806451612903
+[TOTAL_GCS_PS_Scavenge], Count, 0
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.0
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1
+[READ], AverageLatency(us), 8158.0
+[READ], MinLatency(us), 8156
+[READ], MaxLatency(us), 8159
+[READ], 95thPercentileLatency(us), 8159
+[READ], 99thPercentileLatency(us), 8159
+[READ], Return=OK, 1
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 250304.0
+[CLEANUP], MinLatency(us), 250240
+[CLEANUP], MaxLatency(us), 250367
+[CLEANUP], 95thPercentileLatency(us), 250367
+[CLEANUP], 99thPercentileLatency(us), 250367

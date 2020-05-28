@@ -20,7 +20,7 @@ genConfBound(){
 		printf "\t%4.2f" $thr >> results.tmp
 	done
 	./confbounds.py results.tmp $CONF $ACC $NRUNS > $output
-
+	cat $output
 	rm results.tmp
 }
 
@@ -44,7 +44,7 @@ do
 		results=oltpbench/"${benchmark}_${system}"
 		output=oltpbench/"${benchmark}_${system}.tmp"
 		genConfBound $results $output
-		bounds=$(cat $output | tail -n +2 | awk 'BEGIN{FS=" ";OFS=","}{print $2, $3, $4}')
+		bounds=$(cat $output | tail -n +2 | awk 'BEGIN{FS=" ";OFS=" "}{print $2, $3, $4}')
 		rm $output
 		printf "%s " $bounds >> $OUTPUT
 	done

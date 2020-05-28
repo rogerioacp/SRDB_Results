@@ -1,0 +1,162 @@
+/usr/lib/jvm/java-8-oracle/bin/java -cp /home/gsd/pgs/ycsb/postgrenosql-binding/conf:/home/gsd/pgs/ycsb/conf:/home/gsd/pgs/ycsb/lib/postgresql-9.4.1212.jre7.jar:/home/gsd/pgs/ycsb/lib/json-simple-1.1.1.jar:/home/gsd/pgs/ycsb/lib/postgrenosql-binding-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/HdrHistogram-2.1.11.jar:/home/gsd/pgs/ycsb/lib/core-0.18.0-SNAPSHOT.jar:/home/gsd/pgs/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/slf4j-simple-1.7.13.jar:/home/gsd/pgs/ycsb/lib/jackson-core-asl-1.9.4.jar:/home/gsd/pgs/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/home/gsd/pgs/ycsb/lib/slf4j-api-1.7.13.jar site.ycsb.Client -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloadb -P postgrenosql.properties -t
+Command line: -db site.ycsb.postgrenosql.PostgreNoSQLDBClient -s -P workloads/workloadb -P postgrenosql.properties -t
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 2100 secs
+2020-04-15 11:38:36:496 0 sec: 0 operations; est completion in 0 second 
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2020-04-15 11:38:46:479 9 sec: 77718 operations; 7771.8 current ops/sec; est completion in 21 minutes [SCAN: Count=77727, Max=13671, Min=62, Avg=125.57, 90=172, 99=212, 99.9=337, 99.99=768] 
+2020-04-15 11:38:56:479 19 sec: 153152 operations; 7543.4 current ops/sec; est completion in 21 minutes [SCAN: Count=75433, Max=884, Min=67, Avg=131.2, 90=160, 99=196, 99.9=224, 99.99=268] 
+2020-04-15 11:39:06:479 29 sec: 237165 operations; 8401.3 current ops/sec; est completion in 20 minutes [SCAN: Count=84008, Max=4271, Min=58, Avg=118, 90=145, 99=180, 99.9=228, 99.99=294] 
+2020-04-15 11:39:16:479 39 sec: 314959 operations; 7779.4 current ops/sec; est completion in 20 minutes [SCAN: Count=77797, Max=4919, Min=69, Avg=127.17, 90=146, 99=196, 99.9=231, 99.99=318] 
+2020-04-15 11:39:26:479 49 sec: 395893 operations; 8093.4 current ops/sec; est completion in 20 minutes [SCAN: Count=80933, Max=5899, Min=74, Avg=122.33, 90=146, 99=167, 99.9=246, 99.99=279] 
+2020-04-15 11:39:36:479 59 sec: 475114 operations; 7922.1 current ops/sec; est completion in 20 minutes [SCAN: Count=79223, Max=6259, Min=78, Avg=124.94, 90=143, 99=196, 99.9=246, 99.99=341] 
+2020-04-15 11:39:46:479 69 sec: 550659 operations; 7554.5 current ops/sec; est completion in 20 minutes [SCAN: Count=75545, Max=5991, Min=74, Avg=131.02, 90=165, 99=212, 99.9=285, 99.99=368] 
+2020-04-15 11:39:56:479 79 sec: 628569 operations; 7791 current ops/sec; est completion in 19 minutes [SCAN: Count=77911, Max=7611, Min=59, Avg=127.14, 90=163, 99=199, 99.9=238, 99.99=343] 
+2020-04-15 11:40:06:479 89 sec: 707122 operations; 7855.3 current ops/sec; est completion in 19 minutes [SCAN: Count=78551, Max=1734, Min=77, Avg=126.05, 90=154, 99=180, 99.9=244, 99.99=303] 
+2020-04-15 11:40:16:479 99 sec: 773987 operations; 6686.5 current ops/sec; est completion in 19 minutes [SCAN: Count=66865, Max=3195, Min=68, Avg=148.14, 90=178, 99=238, 99.9=308, 99.99=346] 
+2020-04-15 11:40:26:479 109 sec: 847193 operations; 7320.6 current ops/sec; est completion in 19 minutes [SCAN: Count=73207, Max=2006, Min=68, Avg=135.31, 90=174, 99=197, 99.9=230, 99.99=305] 
+2020-04-15 11:40:36:479 119 sec: 928933 operations; 8174 current ops/sec; est completion in 19 minutes [SCAN: Count=81740, Max=1568, Min=60, Avg=121.11, 90=146, 99=197, 99.9=236, 99.99=293] 
+2020-04-15 11:40:46:479 129 sec: 1008537 operations; 7960.4 current ops/sec; est completion in 19 minutes [SCAN: Count=79601, Max=2143, Min=71, Avg=124.42, 90=146, 99=198, 99.9=248, 99.99=308] 
+2020-04-15 11:40:56:480 139 sec: 1085745 operations; 7720.8 current ops/sec; est completion in 19 minutes [SCAN: Count=77212, Max=1857, Min=74, Avg=128.2, 90=154, 99=195, 99.9=247, 99.99=318] 
+2020-04-15 11:41:06:479 149 sec: 1163967 operations; 7822.2 current ops/sec; est completion in 18 minutes [SCAN: Count=78222, Max=3101, Min=61, Avg=126.51, 90=153, 99=223, 99.9=281, 99.99=347] 
+2020-04-15 11:41:16:479 159 sec: 1248042 operations; 8407.5 current ops/sec; est completion in 18 minutes [SCAN: Count=84075, Max=724, Min=63, Avg=117.72, 90=139, 99=156, 99.9=195, 99.99=237] 
+2020-04-15 11:41:26:479 169 sec: 1331612 operations; 8357 current ops/sec; est completion in 18 minutes [SCAN: Count=83570, Max=2149, Min=72, Avg=118.32, 90=134, 99=173, 99.9=245, 99.99=277] 
+2020-04-15 11:41:36:479 179 sec: 1415598 operations; 8398.6 current ops/sec; est completion in 18 minutes [SCAN: Count=83987, Max=281, Min=64, Avg=117.81, 90=140, 99=173, 99.9=246, 99.99=255] 
+2020-04-15 11:41:46:479 189 sec: 1493923 operations; 7832.5 current ops/sec; est completion in 18 minutes [SCAN: Count=78322, Max=2351, Min=73, Avg=126.46, 90=169, 99=194, 99.9=254, 99.99=320] 
+2020-04-15 11:41:56:479 199 sec: 1560816 operations; 6689.3 current ops/sec; est completion in 18 minutes [SCAN: Count=66893, Max=2289, Min=64, Avg=148.18, 90=173, 99=200, 99.9=261, 99.99=333] 
+2020-04-15 11:42:06:479 209 sec: 1634928 operations; 7411.2 current ops/sec; est completion in 17 minutes [SCAN: Count=74112, Max=669, Min=57, Avg=133.8, 90=175, 99=232, 99.9=291, 99.99=337] 
+2020-04-15 11:42:16:479 219 sec: 1717484 operations; 8255.6 current ops/sec; est completion in 17 minutes [SCAN: Count=82553, Max=4651, Min=61, Avg=120.03, 90=156, 99=196, 99.9=245, 99.99=337] 
+2020-04-15 11:42:26:479 229 sec: 1791073 operations; 7358.9 current ops/sec; est completion in 17 minutes [SCAN: Count=73590, Max=1081, Min=75, Avg=134.68, 90=161, 99=200, 99.9=258, 99.99=311] 
+2020-04-15 11:42:36:479 239 sec: 1857498 operations; 6642.5 current ops/sec; est completion in 17 minutes [SCAN: Count=66425, Max=1627, Min=72, Avg=149.13, 90=178, 99=215, 99.9=285, 99.99=322] 
+2020-04-15 11:42:46:479 249 sec: 1940642 operations; 8314.4 current ops/sec; est completion in 17 minutes [SCAN: Count=83145, Max=734, Min=68, Avg=119.06, 90=140, 99=196, 99.9=245, 99.99=274] 
+2020-04-15 11:42:56:479 259 sec: 2020280 operations; 7963.8 current ops/sec; est completion in 17 minutes [SCAN: Count=79640, Max=2229, Min=70, Avg=124.23, 90=162, 99=205, 99.9=276, 99.99=387] 
+2020-04-15 11:43:06:479 269 sec: 2116202 operations; 9592.2 current ops/sec; est completion in 16 minutes [SCAN: Count=95919, Max=1937, Min=69, Avg=103.34, 90=121, 99=134, 99.9=177, 99.99=217] 
+2020-04-15 11:43:16:479 279 sec: 2200837 operations; 8463.5 current ops/sec; est completion in 16 minutes [SCAN: Count=84640, Max=2045, Min=73, Avg=117.08, 90=145, 99=196, 99.9=241, 99.99=306] 
+2020-04-15 11:43:26:479 289 sec: 2283044 operations; 8220.7 current ops/sec; est completion in 16 minutes [SCAN: Count=82207, Max=1470, Min=70, Avg=120.38, 90=145, 99=174, 99.9=223, 99.99=248] 
+2020-04-15 11:43:36:479 299 sec: 2364597 operations; 8155.3 current ops/sec; est completion in 16 minutes [SCAN: Count=81550, Max=1637, Min=67, Avg=121.39, 90=153, 99=196, 99.9=255, 99.99=327] 
+2020-04-15 11:43:46:479 309 sec: 2446228 operations; 8163.1 current ops/sec; est completion in 15 minutes [SCAN: Count=81632, Max=1608, Min=62, Avg=121.2, 90=137, 99=198, 99.9=273, 99.99=344] 
+2020-04-15 11:43:56:479 319 sec: 2532047 operations; 8581.9 current ops/sec; est completion in 15 minutes [SCAN: Count=85816, Max=1694, Min=61, Avg=115.32, 90=139, 99=148, 99.9=236, 99.99=246] 
+2020-04-15 11:44:06:479 329 sec: 2617958 operations; 8591.1 current ops/sec; est completion in 15 minutes [SCAN: Count=85913, Max=2143, Min=61, Avg=115.17, 90=134, 99=195, 99.9=235, 99.99=317] 
+2020-04-15 11:44:16:479 339 sec: 2704706 operations; 8674.8 current ops/sec; est completion in 15 minutes [SCAN: Count=86744, Max=1409, Min=65, Avg=114.11, 90=136, 99=146, 99.9=190, 99.99=226] 
+2020-04-15 11:44:26:479 349 sec: 2782910 operations; 7820.4 current ops/sec; est completion in 15 minutes [SCAN: Count=78205, Max=2025, Min=73, Avg=126.65, 90=180, 99=198, 99.9=243, 99.99=334] 
+2020-04-15 11:44:36:479 359 sec: 2854246 operations; 7133.6 current ops/sec; est completion in 15 minutes [SCAN: Count=71337, Max=922, Min=61, Avg=138.78, 90=174, 99=204, 99.9=264, 99.99=311] 
+2020-04-15 11:44:46:479 369 sec: 2936152 operations; 8190.6 current ops/sec; est completion in 14 minutes [SCAN: Count=81908, Max=1623, Min=58, Avg=120.86, 90=171, 99=198, 99.9=272, 99.99=346] 
+2020-04-15 11:44:56:479 379 sec: 3006469 operations; 7031.7 current ops/sec; est completion in 14 minutes [SCAN: Count=70315, Max=6851, Min=61, Avg=140.87, 90=178, 99=221, 99.9=306, 99.99=391] 
+2020-04-15 11:45:06:479 389 sec: 3073655 operations; 6718.6 current ops/sec; est completion in 14 minutes [SCAN: Count=67186, Max=1573, Min=69, Avg=147.46, 90=186, 99=228, 99.9=319, 99.99=338] 
+2020-04-15 11:45:16:479 399 sec: 3150834 operations; 7717.9 current ops/sec; est completion in 14 minutes [SCAN: Count=77180, Max=2042, Min=65, Avg=128.28, 90=170, 99=196, 99.9=224, 99.99=322] 
+2020-04-15 11:45:26:479 409 sec: 3227210 operations; 7637.6 current ops/sec; est completion in 14 minutes [SCAN: Count=76374, Max=1514, Min=74, Avg=129.55, 90=157, 99=196, 99.9=261, 99.99=345] 
+2020-04-15 11:45:36:479 419 sec: 3309779 operations; 8256.9 current ops/sec; est completion in 14 minutes [SCAN: Count=82571, Max=1796, Min=78, Avg=119.94, 90=140, 99=155, 99.9=240, 99.99=256] 
+2020-04-15 11:45:46:479 429 sec: 3395574 operations; 8579.5 current ops/sec; est completion in 13 minutes [SCAN: Count=85795, Max=2235, Min=63, Avg=115.44, 90=140, 99=149, 99.9=216, 99.99=249] 
+2020-04-15 11:45:56:479 439 sec: 3468115 operations; 7254.1 current ops/sec; est completion in 13 minutes [SCAN: Count=72540, Max=1625, Min=76, Avg=136.46, 90=178, 99=199, 99.9=247, 99.99=318] 
+2020-04-15 11:46:06:479 449 sec: 3549769 operations; 8165.4 current ops/sec; est completion in 13 minutes [SCAN: Count=81655, Max=1930, Min=72, Avg=121.15, 90=139, 99=195, 99.9=230, 99.99=273] 
+2020-04-15 11:46:16:479 459 sec: 3629890 operations; 8012.1 current ops/sec; est completion in 13 minutes [SCAN: Count=80121, Max=1087, Min=72, Avg=123.49, 90=143, 99=207, 99.9=274, 99.99=348] 
+2020-04-15 11:46:26:479 469 sec: 3710888 operations; 8099.8 current ops/sec; est completion in 13 minutes [SCAN: Count=80996, Max=1650, Min=67, Avg=122.18, 90=166, 99=195, 99.9=234, 99.99=305] 
+2020-04-15 11:46:36:479 479 sec: 3774921 operations; 6403.3 current ops/sec; est completion in 13 minutes [SCAN: Count=64035, Max=1606, Min=69, Avg=154.63, 90=178, 99=216, 99.9=291, 99.99=346] 
+2020-04-15 11:46:46:479 489 sec: 3851848 operations; 7692.7 current ops/sec; est completion in 13 minutes [SCAN: Count=76926, Max=1413, Min=61, Avg=128.68, 90=179, 99=201, 99.9=262, 99.99=317] 
+2020-04-15 11:46:56:479 499 sec: 3914106 operations; 6225.8 current ops/sec; est completion in 12 minutes [SCAN: Count=62258, Max=2121, Min=79, Avg=159.08, 90=178, 99=198, 99.9=248, 99.99=324] 
+2020-04-15 11:47:06:479 509 sec: 3988150 operations; 7404.4 current ops/sec; est completion in 12 minutes [SCAN: Count=74044, Max=1806, Min=85, Avg=133.67, 90=162, 99=219, 99.9=255, 99.99=307] 
+2020-04-15 11:47:16:479 519 sec: 4066891 operations; 7874.1 current ops/sec; est completion in 12 minutes [SCAN: Count=78741, Max=1635, Min=72, Avg=125.69, 90=143, 99=197, 99.9=246, 99.99=319] 
+2020-04-15 11:47:26:479 529 sec: 4146409 operations; 7951.8 current ops/sec; est completion in 12 minutes [SCAN: Count=79517, Max=1875, Min=65, Avg=124.46, 90=145, 99=197, 99.9=237, 99.99=320] 
+2020-04-15 11:47:36:479 539 sec: 4223864 operations; 7745.5 current ops/sec; est completion in 12 minutes [SCAN: Count=77456, Max=1918, Min=73, Avg=127.74, 90=179, 99=199, 99.9=233, 99.99=269] 
+2020-04-15 11:47:46:479 549 sec: 4303688 operations; 7982.4 current ops/sec; est completion in 12 minutes [SCAN: Count=79826, Max=1916, Min=65, Avg=124.02, 90=149, 99=198, 99.9=250, 99.99=321] 
+2020-04-15 11:47:56:479 559 sec: 4386311 operations; 8262.3 current ops/sec; est completion in 11 minutes [SCAN: Count=82621, Max=1723, Min=74, Avg=119.72, 90=134, 99=196, 99.9=256, 99.99=342] 
+2020-04-15 11:48:06:479 569 sec: 4473159 operations; 8684.8 current ops/sec; est completion in 11 minutes [SCAN: Count=86847, Max=2145, Min=61, Avg=113.93, 90=134, 99=146, 99.9=196, 99.99=247] 
+2020-04-15 11:48:16:479 579 sec: 4553753 operations; 8059.4 current ops/sec; est completion in 11 minutes [SCAN: Count=80595, Max=2317, Min=64, Avg=122.72, 90=140, 99=193, 99.9=249, 99.99=305] 
+2020-04-15 11:48:26:479 589 sec: 4636803 operations; 8305 current ops/sec; est completion in 11 minutes [SCAN: Count=83049, Max=1984, Min=73, Avg=119.02, 90=133, 99=140, 99.9=199, 99.99=231] 
+2020-04-15 11:48:36:479 599 sec: 4718179 operations; 8137.6 current ops/sec; est completion in 11 minutes [SCAN: Count=81376, Max=1707, Min=64, Avg=121.55, 90=138, 99=193, 99.9=233, 99.99=271] 
+2020-04-15 11:48:46:479 609 sec: 4801830 operations; 8365.1 current ops/sec; est completion in 11 minutes [SCAN: Count=83650, Max=1744, Min=62, Avg=118.29, 90=135, 99=193, 99.9=227, 99.99=265] 
+2020-04-15 11:48:56:479 619 sec: 4873457 operations; 7162.7 current ops/sec; est completion in 10 minutes [SCAN: Count=71629, Max=1986, Min=74, Avg=138.19, 90=174, 99=197, 99.9=233, 99.99=311] 
+2020-04-15 11:49:06:479 629 sec: 4955024 operations; 8156.7 current ops/sec; est completion in 10 minutes [SCAN: Count=81566, Max=1140, Min=73, Avg=121.27, 90=139, 99=151, 99.9=228, 99.99=250] 
+2020-04-15 11:49:16:479 639 sec: 5033120 operations; 7809.6 current ops/sec; est completion in 10 minutes [SCAN: Count=78096, Max=1403, Min=68, Avg=126.69, 90=151, 99=172, 99.9=230, 99.99=257] 
+2020-04-15 11:49:26:479 649 sec: 5104743 operations; 7162.3 current ops/sec; est completion in 10 minutes [SCAN: Count=71622, Max=2008, Min=79, Avg=138.27, 90=161, 99=190, 99.9=248, 99.99=322] 
+2020-04-15 11:49:36:479 659 sec: 5186913 operations; 8217 current ops/sec; est completion in 10 minutes [SCAN: Count=82170, Max=1725, Min=70, Avg=120.36, 90=134, 99=197, 99.9=216, 99.99=248] 
+2020-04-15 11:49:46:479 669 sec: 5267785 operations; 8087.2 current ops/sec; est completion in 10 minutes [SCAN: Count=80872, Max=898, Min=62, Avg=122.54, 90=165, 99=183, 99.9=247, 99.99=392] 
+2020-04-15 11:49:56:479 679 sec: 5333357 operations; 6557.2 current ops/sec; est completion in 9 minutes [SCAN: Count=65573, Max=1936, Min=69, Avg=151.2, 90=176, 99=199, 99.9=252, 99.99=321] 
+2020-04-15 11:50:06:479 689 sec: 5408028 operations; 7467.1 current ops/sec; est completion in 9 minutes [SCAN: Count=74669, Max=2157, Min=57, Avg=132.71, 90=177, 99=210, 99.9=297, 99.99=333] 
+2020-04-15 11:50:16:479 699 sec: 5485370 operations; 7734.2 current ops/sec; est completion in 9 minutes [SCAN: Count=77344, Max=1589, Min=61, Avg=128.04, 90=155, 99=178, 99.9=229, 99.99=263] 
+2020-04-15 11:50:26:479 709 sec: 5552079 operations; 6670.9 current ops/sec; est completion in 9 minutes [SCAN: Count=66709, Max=1817, Min=68, Avg=148.63, 90=176, 99=196, 99.9=253, 99.99=303] 
+2020-04-15 11:50:36:479 719 sec: 5617626 operations; 6554.7 current ops/sec; est completion in 9 minutes [SCAN: Count=65546, Max=2249, Min=96, Avg=151.24, 90=177, 99=212, 99.9=301, 99.99=345] 
+2020-04-15 11:50:46:479 729 sec: 5698707 operations; 8108.1 current ops/sec; est completion in 9 minutes [SCAN: Count=81083, Max=1786, Min=62, Avg=122.25, 90=152, 99=200, 99.9=273, 99.99=333] 
+2020-04-15 11:50:56:479 739 sec: 5775159 operations; 7645.2 current ops/sec; est completion in 9 minutes [SCAN: Count=76450, Max=1762, Min=72, Avg=129.51, 90=164, 99=199, 99.9=248, 99.99=316] 
+2020-04-15 11:51:06:479 749 sec: 5858062 operations; 8290.3 current ops/sec; est completion in 8 minutes [SCAN: Count=82903, Max=1705, Min=70, Avg=119.35, 90=134, 99=194, 99.9=238, 99.99=304] 
+2020-04-15 11:51:16:479 759 sec: 5934915 operations; 7685.3 current ops/sec; est completion in 8 minutes [SCAN: Count=76855, Max=2199, Min=71, Avg=128.7, 90=149, 99=200, 99.9=248, 99.99=335] 
+2020-04-15 11:51:26:479 769 sec: 6016540 operations; 8162.5 current ops/sec; est completion in 8 minutes [SCAN: Count=81624, Max=2207, Min=63, Avg=121.27, 90=149, 99=197, 99.9=262, 99.99=335] 
+2020-04-15 11:51:36:479 779 sec: 6099393 operations; 8285.3 current ops/sec; est completion in 8 minutes [SCAN: Count=82854, Max=1468, Min=63, Avg=119.52, 90=149, 99=195, 99.9=228, 99.99=290] 
+2020-04-15 11:51:46:479 789 sec: 6183926 operations; 8453.3 current ops/sec; est completion in 8 minutes [SCAN: Count=84533, Max=1655, Min=73, Avg=117.08, 90=134, 99=189, 99.9=203, 99.99=239] 
+2020-04-15 11:51:56:479 799 sec: 6262796 operations; 7887 current ops/sec; est completion in 7 minutes [SCAN: Count=78868, Max=1972, Min=75, Avg=125.48, 90=162, 99=189, 99.9=246, 99.99=308] 
+2020-04-15 11:52:06:479 809 sec: 6330790 operations; 6799.4 current ops/sec; est completion in 7 minutes [SCAN: Count=67996, Max=11615, Min=66, Avg=145.85, 90=172, 99=231, 99.9=307, 99.99=375] 
+2020-04-15 11:52:16:479 819 sec: 6416872 operations; 8608.2 current ops/sec; est completion in 7 minutes [SCAN: Count=86080, Max=1361, Min=60, Avg=114.88, 90=150, 99=196, 99.9=204, 99.99=286] 
+2020-04-15 11:52:26:479 829 sec: 6493588 operations; 7671.6 current ops/sec; est completion in 7 minutes [SCAN: Count=76715, Max=5779, Min=71, Avg=129.02, 90=163, 99=200, 99.9=251, 99.99=345] 
+2020-04-15 11:52:36:479 839 sec: 6572098 operations; 7851 current ops/sec; est completion in 7 minutes [SCAN: Count=78511, Max=958, Min=58, Avg=126.36, 90=160, 99=180, 99.9=244, 99.99=286] 
+2020-04-15 11:52:46:479 849 sec: 6639714 operations; 6761.6 current ops/sec; est completion in 7 minutes [SCAN: Count=67616, Max=1653, Min=68, Avg=146.76, 90=176, 99=212, 99.9=309, 99.99=343] 
+2020-04-15 11:52:56:479 859 sec: 6717577 operations; 7786.3 current ops/sec; est completion in 7 minutes [SCAN: Count=77863, Max=1840, Min=57, Avg=127.26, 90=165, 99=197, 99.9=273, 99.99=344] 
+2020-04-15 11:53:06:479 869 sec: 6785820 operations; 6824.3 current ops/sec; est completion in 6 minutes [SCAN: Count=68243, Max=972, Min=64, Avg=145.22, 90=185, 99=206, 99.9=259, 99.99=315] 
+2020-04-15 11:53:16:479 879 sec: 6864920 operations; 7910 current ops/sec; est completion in 6 minutes [SCAN: Count=79101, Max=1889, Min=61, Avg=125.16, 90=152, 99=234, 99.9=296, 99.99=352] 
+2020-04-15 11:53:26:479 889 sec: 6946321 operations; 8140.1 current ops/sec; est completion in 6 minutes [SCAN: Count=81401, Max=2237, Min=64, Avg=121.55, 90=144, 99=195, 99.9=233, 99.99=270] 
+2020-04-15 11:53:36:479 899 sec: 7016881 operations; 7056 current ops/sec; est completion in 6 minutes [SCAN: Count=70558, Max=6211, Min=58, Avg=140.47, 90=173, 99=226, 99.9=313, 99.99=350] 
+2020-04-15 11:53:46:479 909 sec: 7097840 operations; 8095.9 current ops/sec; est completion in 6 minutes [SCAN: Count=80961, Max=1240, Min=63, Avg=122.39, 90=152, 99=195, 99.9=234, 99.99=319] 
+2020-04-15 11:53:56:479 919 sec: 7184840 operations; 8700 current ops/sec; est completion in 6 minutes [SCAN: Count=86999, Max=1186, Min=68, Avg=113.87, 90=131, 99=173, 99.9=235, 99.99=276] 
+2020-04-15 11:54:06:479 929 sec: 7270777 operations; 8593.7 current ops/sec; est completion in 5 minutes [SCAN: Count=85938, Max=2123, Min=75, Avg=115.11, 90=133, 99=139, 99.9=201, 99.99=258] 
+2020-04-15 11:54:16:479 939 sec: 7367462 operations; 9668.5 current ops/sec; est completion in 5 minutes [SCAN: Count=96683, Max=734, Min=71, Avg=102.64, 90=113, 99=151, 99.9=182, 99.99=264] 
+2020-04-15 11:54:26:479 949 sec: 7445871 operations; 7840.9 current ops/sec; est completion in 5 minutes [SCAN: Count=78409, Max=1362, Min=65, Avg=126.28, 90=171, 99=202, 99.9=259, 99.99=317] 
+2020-04-15 11:54:36:479 959 sec: 7531288 operations; 8541.7 current ops/sec; est completion in 5 minutes [SCAN: Count=85419, Max=1887, Min=62, Avg=115.8, 90=134, 99=141, 99.9=200, 99.99=275] 
+2020-04-15 11:54:46:479 969 sec: 7610940 operations; 7965.2 current ops/sec; est completion in 5 minutes [SCAN: Count=79652, Max=1384, Min=73, Avg=124.26, 90=165, 99=193, 99.9=243, 99.99=355] 
+2020-04-15 11:54:56:479 979 sec: 7686951 operations; 7601.1 current ops/sec; est completion in 4 minutes [SCAN: Count=76009, Max=6799, Min=57, Avg=130.42, 90=152, 99=184, 99.9=240, 99.99=313] 
+2020-04-15 11:55:06:479 989 sec: 7763568 operations; 7661.7 current ops/sec; est completion in 4 minutes [SCAN: Count=76618, Max=2171, Min=69, Avg=129.13, 90=177, 99=198, 99.9=238, 99.99=327] 
+2020-04-15 11:55:16:479 999 sec: 7848483 operations; 8491.5 current ops/sec; est completion in 4 minutes [SCAN: Count=84916, Max=1855, Min=57, Avg=116.61, 90=140, 99=175, 99.9=231, 99.99=318] 
+2020-04-15 11:55:26:479 1009 sec: 7916606 operations; 6812.3 current ops/sec; est completion in 4 minutes [SCAN: Count=68121, Max=2145, Min=73, Avg=145.41, 90=178, 99=207, 99.9=300, 99.99=331] 
+2020-04-15 11:55:36:479 1019 sec: 8001051 operations; 8444.5 current ops/sec; est completion in 4 minutes [SCAN: Count=84445, Max=1164, Min=59, Avg=117.28, 90=139, 99=191, 99.9=213, 99.99=269] 
+2020-04-15 11:55:46:479 1029 sec: 8072816 operations; 7176.5 current ops/sec; est completion in 4 minutes [SCAN: Count=71766, Max=2265, Min=69, Avg=138.02, 90=173, 99=200, 99.9=249, 99.99=310] 
+2020-04-15 11:55:56:479 1039 sec: 8135624 operations; 6280.8 current ops/sec; est completion in 3 minutes [SCAN: Count=62808, Max=3313, Min=77, Avg=157.77, 90=177, 99=198, 99.9=250, 99.99=320] 
+2020-04-15 11:56:06:479 1049 sec: 8199618 operations; 6399.4 current ops/sec; est completion in 3 minutes [SCAN: Count=63993, Max=758, Min=111, Avg=154.99, 90=174, 99=205, 99.9=260, 99.99=316] 
+2020-04-15 11:56:16:479 1059 sec: 8264316 operations; 6469.8 current ops/sec; est completion in 3 minutes [SCAN: Count=64698, Max=2143, Min=76, Avg=153.24, 90=174, 99=212, 99.9=280, 99.99=347] 
+2020-04-15 11:56:26:479 1069 sec: 8336597 operations; 7228.1 current ops/sec; est completion in 3 minutes [SCAN: Count=72282, Max=2377, Min=62, Avg=137.11, 90=170, 99=206, 99.9=285, 99.99=360] 
+2020-04-15 11:56:36:479 1079 sec: 8415584 operations; 7898.7 current ops/sec; est completion in 3 minutes [SCAN: Count=78988, Max=2131, Min=80, Avg=125.32, 90=143, 99=194, 99.9=238, 99.99=261] 
+2020-04-15 11:56:46:479 1089 sec: 8494742 operations; 7915.8 current ops/sec; est completion in 3 minutes [SCAN: Count=79158, Max=1850, Min=78, Avg=125.11, 90=148, 99=182, 99.9=235, 99.99=306] 
+2020-04-15 11:56:56:479 1099 sec: 8572770 operations; 7802.8 current ops/sec; est completion in 3 minutes [SCAN: Count=78027, Max=2285, Min=69, Avg=126.86, 90=155, 99=201, 99.9=274, 99.99=341] 
+2020-04-15 11:57:06:479 1109 sec: 8653484 operations; 8071.4 current ops/sec; est completion in 2 minutes [SCAN: Count=80714, Max=1788, Min=78, Avg=122.51, 90=136, 99=195, 99.9=216, 99.99=243] 
+2020-04-15 11:57:16:479 1119 sec: 8737766 operations; 8428.2 current ops/sec; est completion in 2 minutes [SCAN: Count=84283, Max=1683, Min=73, Avg=117.41, 90=136, 99=186, 99.9=238, 99.99=274] 
+2020-04-15 11:57:26:479 1129 sec: 8815021 operations; 7725.5 current ops/sec; est completion in 2 minutes [SCAN: Count=77254, Max=1157, Min=78, Avg=128.14, 90=146, 99=197, 99.9=255, 99.99=341] 
+2020-04-15 11:57:36:479 1139 sec: 8900532 operations; 8551.1 current ops/sec; est completion in 2 minutes [SCAN: Count=85512, Max=1276, Min=75, Avg=115.79, 90=136, 99=169, 99.9=220, 99.99=239] 
+2020-04-15 11:57:46:479 1149 sec: 8983286 operations; 8275.4 current ops/sec; est completion in 2 minutes [SCAN: Count=82753, Max=1777, Min=78, Avg=119.51, 90=134, 99=160, 99.9=227, 99.99=249] 
+2020-04-15 11:57:56:479 1159 sec: 9059857 operations; 7657.1 current ops/sec; est completion in 2 minutes [SCAN: Count=76571, Max=2233, Min=72, Avg=129.19, 90=163, 99=205, 99.9=275, 99.99=356] 
+2020-04-15 11:58:06:479 1169 sec: 9140227 operations; 8037 current ops/sec; est completion in 1 minute [SCAN: Count=80370, Max=1910, Min=76, Avg=123.08, 90=142, 99=155, 99.9=203, 99.99=247] 
+2020-04-15 11:58:16:479 1179 sec: 9224766 operations; 8453.9 current ops/sec; est completion in 1 minute [SCAN: Count=84540, Max=1675, Min=61, Avg=117.04, 90=134, 99=161, 99.9=229, 99.99=268] 
+2020-04-15 11:58:26:479 1189 sec: 9307390 operations; 8262.4 current ops/sec; est completion in 1 minute [SCAN: Count=82623, Max=1959, Min=61, Avg=119.85, 90=139, 99=148, 99.9=199, 99.99=237] 
+2020-04-15 11:58:36:479 1199 sec: 9389666 operations; 8227.6 current ops/sec; est completion in 1 minute [SCAN: Count=82277, Max=1927, Min=65, Avg=120.16, 90=139, 99=147, 99.9=203, 99.99=246] 
+2020-04-15 11:58:46:479 1209 sec: 9475198 operations; 8553.2 current ops/sec; est completion in 1 minute [SCAN: Count=85531, Max=2755, Min=61, Avg=115.74, 90=139, 99=192, 99.9=239, 99.99=345] 
+2020-04-15 11:58:56:479 1219 sec: 9556988 operations; 8179 current ops/sec; est completion in 57 seconds [SCAN: Count=81790, Max=460, Min=71, Avg=120.92, 90=143, 99=195, 99.9=235, 99.99=309] 
+2020-04-15 11:59:06:479 1229 sec: 9636493 operations; 7950.5 current ops/sec; est completion in 47 seconds [SCAN: Count=79505, Max=1912, Min=67, Avg=124.43, 90=144, 99=194, 99.9=225, 99.99=273] 
+2020-04-15 11:59:16:479 1239 sec: 9717407 operations; 8091.4 current ops/sec; est completion in 37 seconds [SCAN: Count=80914, Max=1788, Min=62, Avg=122.29, 90=145, 99=190, 99.9=231, 99.99=323] 
+2020-04-15 11:59:26:479 1249 sec: 9786202 operations; 6879.5 current ops/sec; est completion in 28 seconds [SCAN: Count=68795, Max=1752, Min=59, Avg=144, 90=173, 99=197, 99.9=256, 99.99=304] 
+2020-04-15 11:59:36:479 1259 sec: 9857765 operations; 7156.3 current ops/sec; est completion in 19 seconds [SCAN: Count=71564, Max=3065, Min=94, Avg=138.37, 90=158, 99=210, 99.9=268, 99.99=316] 
+2020-04-15 11:59:46:479 1269 sec: 9931851 operations; 7408.6 current ops/sec; est completion in 9 second [SCAN: Count=74085, Max=1816, Min=69, Avg=133.58, 90=180, 99=198, 99.9=231, 99.99=278] 
+Could not wait until max specified time, TerminatorThread interrupted.
+2020-04-15 11:59:54:701 1278 sec: 10000000 operations; 8288.62 current ops/sec; [CLEANUP: Count=1, Max=1742, Min=1742, Avg=1742, 90=1742, 99=1742, 99.9=1742, 99.99=1742] [SCAN: Count=68147, Max=1935, Min=66, Avg=119.31, 90=134, 99=196, 99.9=234, 99.99=278] 
+[OVERALL], RunTime(ms), 1278157
+[OVERALL], Throughput(ops/sec), 7823.764999135474
+[TOTAL_GCS_PS_Scavenge], Count, 213
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 268
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.020967690197683072
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 213
+[TOTAL_GC_TIME], Time(ms), 268
+[TOTAL_GC_TIME_%], Time(%), 0.020967690197683072
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1742.0
+[CLEANUP], MinLatency(us), 1742
+[CLEANUP], MaxLatency(us), 1742
+[CLEANUP], 95thPercentileLatency(us), 1742
+[CLEANUP], 99thPercentileLatency(us), 1742
+[SCAN], Operations, 10000000
+[SCAN], AverageLatency(us), 126.5408519
+[SCAN], MinLatency(us), 57
+[SCAN], MaxLatency(us), 13671
+[SCAN], 95thPercentileLatency(us), 175
+[SCAN], 99thPercentileLatency(us), 197
+[SCAN], Return=OK, 10000000

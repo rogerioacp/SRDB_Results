@@ -5,8 +5,8 @@
 #The number of blocks and block size are powers of 2, e.g.: 2^7, 2^8,...
 #SYSTEMS=(randomreadbench randomreadbenchf randomwritebench randomwritebenchf)
 
-SYSTEMS=(randomreadbenchd randomreadbenchfd randomwritebenchd randomwritebenchfd)
-#SYSTEMS=(randomreadbench)
+#SYSTEMS=(randomreadbenchd randomreadbenchfd randomwritebenchd randomwritebenchfd)
+SYSTEMS=(randomwritebench randomwritebenchf)
 NBLOCKS=(10 12 14 16)
 BSIZES=(13)
 BCAP=(4)
@@ -24,7 +24,7 @@ COOL_DOWN=120
 NRUNS=5
 
 
-RESULTS_PATH="results"
+RESULTS_PATH="ndresults"
 
 
 function run_test {
@@ -42,8 +42,8 @@ function run_test {
         #pid=$!
         #sleep $MAX_EXEC_TIME
         local stats=$(./stats.py -i "$RESULTS_PATH/$file")
-        printf "%20s %6d %4d %d %d" "$system" "$nblocks" "$bsize" "$bcap" "$run" >> results/stats.csv
-        echo "$stats" >> results/stats.csv
+        printf "%20s %6d %4d %d %d" "$system" "$nblocks" "$bsize" "$bcap" "$run" >> $RESULTS_PATH/stats.csv
+        echo "$stats" >> $RESULTS_PATH/stats.csv
         #kill $pid
         #sleep $COOL_DOWN
     done
