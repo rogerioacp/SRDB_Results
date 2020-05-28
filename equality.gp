@@ -6,10 +6,10 @@ mpl_top    = 0.2 #inch  outer top margin, title goes here
 mpl_bot    = 0.8 #inch  outer bottom margin, x label goes here
 mpl_left   = 0.2 #inch  outer left margin, y label goes here
 mpl_right  = 0.1 #inch  outer right margin, y2 label goes here
-mpl_height = 0.8 #inch  height of individual plots
-mpl_width  = 2.7 #inch  width of individual plots
-mpl_dx     = 0.45 #inch  inter-plot horizontal spacing
-mpl_dy     = 0.7 #inch  inter-plot vertical spacing
+mpl_height = 0.9 #inch  height of individual plots
+mpl_width  = 4 #inch  width of individual plots
+mpl_dx     = 0 #inch  inter-plot horizontal spacing
+mpl_dy     = 0.9 #inch  inter-plot vertical spacing
 mpl_ny     = 2 #number of rows
 mpl_nx     = 1 #number of columns
 
@@ -59,7 +59,7 @@ set border 3 back
 set tics nomirror
 
 
-set offsets
+#set offsets
 set autoscale 
 set size 1,1
 
@@ -76,9 +76,9 @@ set rmargin at screen right(1)
 #  set horizontal margins for third row (top)
 set tmargin at screen top(2)
 set bmargin at screen bot(2)
-set title "Workload A" offset 0, -0.8
+set title "Workload A"
 set xlabel 'Number of table blocks (base 2)'
-set ylabel 'Average Latency (ms)' offset 0.8, 0
+set ylabel 'Average Latency (ms)'
 set ytics 10
 plot "data/dtpathoram_z4_singleoram_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size lc rgb "#d9d9d9",\
 	"data/dtforestoram_z4_divoram_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size  lc rgb "#252525"
@@ -93,9 +93,9 @@ set key horiz maxrows 1 samplen 1
 set key out bot center
 set ytics 100
 
-set title "Workload B" offset 0, -0.8
+set title "Workload B"
 set xlabel 'Number of results'
-set ylabel 'Average Latency (ms)' offset 0.8, 0
+set ylabel 'Average Latency (ms)'
 
 plot "data/dtforestoram_z4_divoramscan_latencies.dat" with linespoints title system_name lw line_width pt marker_2 ps point_size lc rgb "#252525",\
 	"data/dtpathoram_z4_soramscan_latencies.dat" with linespoints title baseline_name lw line_width pt marker_1 ps point_size lc rgb "#d9d9d9"

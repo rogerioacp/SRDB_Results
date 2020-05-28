@@ -2,12 +2,12 @@ load 'defaults.gp'
 load 'colors-sequential-Gray.gp'
 #load 'colors-qualitative-clusterd.gp'
 
-mpl_top    = 0.1 #inch  outer top margin, title goes here
-mpl_bot    = 0.2 #inch  outer bottom margin, x label goes here
+mpl_top    = 0 #inch  outer top margin, title goes here
+mpl_bot    = 0.4  #inch  outer bottom margin, x label goes here
 mpl_left   = 0.4 #inch  outer left margin, y label goes here
-mpl_right  = 1 #inch  outer right margin, y2 label goes here
-mpl_height = 1.4 #inch  height of individual plots
-mpl_width  = 1.6 #inch  width of individual plots
+mpl_right  = 1.6 #inch  outer right margin, y2 label goes here
+mpl_height = 2.2 #inch  height of individual plots
+mpl_width  = 3.6 #inch  width of individual plots
 mpl_dx     = 0 #inch  inter-plot horizontal spacing
 mpl_dy     = 0 #inch  inter-plot vertical spacing
 mpl_ny     = 1 #number of rows
@@ -25,7 +25,7 @@ marker_3 = 8
 marker_4 = 5
 
 line_style = 1
-line_width = 5
+line_width = 8
 point_size = 1.5
 
 # calculate full dimensions
@@ -67,7 +67,9 @@ set style fill pattern noborder
 
 #set style rectangle fs solid noborder
 set yrange[0:1] 
-set key invert reverse top Left outside samplen 0.8 width -3.2 
+#set key horiz maxrows 1 samplen 1 
+#set key out bot center
+set key invert reverse top Left outside samplen 0.8 
 set auto x
 
 set boxwidth 0.8
@@ -79,14 +81,14 @@ set rmargin at screen right(1)
 set tmargin at screen top(1)
 set bmargin at screen bot(1)
 
-set ylabel "Execution Time (\\%)" offset 0.8,0
-plot 'data/breakdown.dat' using 2 title "T-File" with histograms fill pattern 5 lc rgb "#252525",\
-	'' using 3 title "T-Stash" with histograms fill pattern 2 lc rgb "#252525",\
-	'' using 6 title "I-File L1" with histograms fill pattern 5 lc rgb "#969696",\
-	'' using 7 title "I-Stash L1"with histograms fill pattern 2 lc rgb "#969696",\
-	'' using 4 title "I-File L2"with histograms fill pattern 5 lc rgb "#d9d9d9",\
-	'' using 5 title "I-Stash L2"with histograms fill pattern 2 lc rgb "#d9d9d9",\
-	'' using 8:xtic(1) title "PRF" with histograms fill solid lc  rgb "#252525"
+set ylabel "Execution Time (\\%)"
+plot 'data/breakdown.dat' using 2 title "T-File" with histograms fill pattern 5 lc rgb "#252525" lw 5,\
+	'' using 3 title "T-Stash" with histograms fill pattern 2 lc rgb "#252525" lw 5,\
+	'' using 6 title "I-File L1" with histograms fill pattern 5 lc rgb "#969696" lw 5,\
+	'' using 7 title "I-Stash L1"with histograms fill pattern 2 lc rgb "#969696" lw 5,\
+	'' using 4 title "I-File L2"with histograms fill pattern 5 lc rgb "#d9d9d9" lw 5,\
+	'' using 5 title "I-Stash L2"with histograms fill pattern 2 lc rgb "#d9d9d9" lw 5,\
+	'' using 8:xtic(1) title "PRF" with histograms fill solid lc  rgb "#252525" lw 5
 
 
 

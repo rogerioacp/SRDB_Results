@@ -2,14 +2,14 @@ load 'defaults.gp'
 load 'colors-sequential-Gray.gp'
 #load 'colors-qualitative-clusterd.gp'
 
-mpl_top    = 0 #inch  outer top margin, title goes here
+mpl_top    = 0.2 #inch  outer top margin, title goes here
 mpl_bot    = 0.4 #inch  outer bottom margin, x label goes here
 mpl_left   = 0.4 #inch  outer left margin, y label goes here
 mpl_right  = 0.3 #inch  outer right margin, y2 label goes here
-mpl_height = 0.6 #inch  height of individual plots
-mpl_width  = 2.6 #inch  width of individual plots
+mpl_height = 1 #inch  height of individual plots
+mpl_width  = 4.8 #inch  width of individual plots
 mpl_dx     = 0 #inch  inter-plot horizontal spacing
-mpl_dy     = 0.15 #inch  inter-plot vertical spacing
+mpl_dy     = 0.2 #inch  inter-plot vertical spacing
 mpl_ny     = 2 #number of rows
 mpl_nx     = 1 #number of columns
 
@@ -106,7 +106,7 @@ set ytics 20
 set xtics 5
 unset xlabel
 set xlabel 'Time (minutes)'
-set ylabel 'Average Disk Writes (MiB/s)' offset 0,3
+set ylabel 'Average Disk Writes (MiB/s)' offset -1,3
 set y2label "Baseline"
 set yrange[0:60]
 
